@@ -2,6 +2,13 @@
 
 This Project is to have a Robot Arm to do sorting mechanisms for things using darknet with addition of Digital Twins
 
+Idea: Sorting socks by its color using robot arm from conveyor system
+Software Tool:
+- YOLOv4 Neural Networks model - Prediction of socks color 
+- ROS (Robotics Operating System) - Controlling robot arm and other apperatus
+- MoveIt tool - For path planning and Kinematical definitions & Visualisation
+
+
 # Contents:
   1. CAD Models of custom robot
   2. ROS installation
