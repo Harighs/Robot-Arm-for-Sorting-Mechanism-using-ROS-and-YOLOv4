@@ -13,23 +13,30 @@ Software Tool:
 
 
 # Contents:
-  1. CAD Models of custom robot
+  <!-- 1. CAD Models of custom robot
   2. ROS installation
   3. MoveIt implementation
   4. Machine Learning Model for Prediction of color of socks
   5. Inferencing ML model on JetSon nano throgh ROS
   6. Hardware Architecture for Robot
   7. Controlling the Actual robot
-  8. Visualization of robot as Digital Twin
+  8. Visualization of robot as Digital Twin -->
+  1. Introduction
+  2. Requirements for Raspbeery pi (Controlling robot)
+  3. Requirements for Ros Master PC (Path Planning)
+  4. Requirements for ML work stations (prediction of socks yolov4 model) for RTX3060
+  5. Our own custom Dataset
+  6. Procedures for building up Yolo Architecture
+  7. Procedures for building up Moveit architecture
+  8. Procedures for robot raspbeery pi
+  9. Running
 
 
-
-
-## About
+## Introduction
 Sorting is huge task in as well as in homes and industries this project is about making an opensource diy socks sorting robot where it can predict the color of socks
 either black and white and grab it using opencv and does requried path planning using "Moveit"- a ros noetic plugin. and place it in the correct box.
 
-### Requirements for Raspbeery pi (Controlling robot)
+## Requirements for Raspbeery pi (Controlling robot)
 - Bare (Flashed) Ubuntu OS on Raspberry pi 3/4 (terminal version)
 - Ros noetic for raspberry: [link](https://varhowto.com/install-ros-noetic-raspberry-pi-4/#Before_installing_ROS_Noetic_on_your_Raspberry_Pi)
 - Required dependencies for running PCA9685: [link](https://github.com/adafruit/Adafruit_Python_PCA9685)
@@ -39,13 +46,13 @@ either black and white and grab it using opencv and does requried path planning 
 
 After this please make the asssembly of diy robot from "Joy-It" link: https://joy-it.net/en/products/Robot02
 
-### Requirements for Ros Master PC (Path Planning)
+## Requirements for Ros Master PC (Path Planning)
 - newly flashed ubuntu 20.04 (with GUI version)
 - For ROS: [Noetic/Installation/Ubuntu - ROS Wiki](http://wiki.ros.org/noetic/Installation/Ubuntu)
 - For Moveit: [MoveIt Tutorials - Installation](https://ros-planning.github.io/moveit_tutorials/index.html)
 - sanity check using builit server-receiver nodes
 
-### Requirements for ML work stations (prediction of socks yolov4 model) for RTX3060
+## Requirements for ML work stations (prediction of socks yolov4 model) for RTX3060
 - Cmake>=3.18
 - opencv
 - NvidiaGPU Drivers 470.42.01
@@ -53,10 +60,10 @@ After this please make the asssembly of diy robot from "Joy-It" link: https://jo
 - nvcc 
 - yolov4 architecture
 
-### Our own custom Dataset
+## Our own custom Dataset
 https://www.kaggle.com/datasets/harigovindasamy/socks-color-dataset-white-and-black
 
-Procedures for building up Yolo Architecture:
+## Procedures for building up Yolo Architecture:
 1. Disable "Secure - Boot" by the command: [source](https://wiki.ubuntu.com/UEFI/SecureBoot/DKMS)
 	```sudo mokutil --disable-validation```
 	- Check your secure boot status (Enabled/Disabled) through this command: `mokutil --sb-state` which need this lib: `sudo apt-get install mokutil`
@@ -71,7 +78,7 @@ Procedures for building up Yolo Architecture:
 
 Our socks prediction model is ready now. so we can move to Ros master path planning 
 
-Procedures for building up Moveit architecture:
+## Procedures for building up Moveit architecture:
 1. first run this:
 ```
 # For enabling each type:
@@ -85,13 +92,12 @@ sudo add-apt-repository restricted
 4. build the moveit architecutre (naming convection should be neat and constant for whole process)
 5. copy requred codes from "Robot-Arm-for-Sorting-Mechanism-using-ROS-and-YOLOv4\scripts\for_master" to catkin workspace then build it
 
-Procedures for robot raspbeery pi:
+## Procedures for robot raspbeery pi:
 1. sanity check of all dependencies installed aready for the PCA9685 hardwares and electrical connections
 2. copy "Robot-Arm-for-Sorting-Mechanism-using-ROS-and-YOLOv4\scripts\robot_pi" to raspberry pi
 
-
-### Connecting all three systems:
-Connecting two ROS systems:
+## Demo
+#### Connecting two ROS systems:
 ```
 #ip of master: 192.168.0.136
 #ip of pi: 192.168.0.162
@@ -112,7 +118,7 @@ on slave:
 	rosrun rospy_tutorials listener.py
 	output: <received msg>
 ```
-### ADD THESE LINES IN .BASHRC for all the pc's and pi's
+#### ADD THESE LINES IN .BASHRC for all the pc's and pi's
 ```py
 ## Custom added
 source /opt/ros/noetic/setup.bash
@@ -125,8 +131,8 @@ export ROS_IP=192.168.0.162
 ```
 
 Starting the process:
-## Demo
 
+#### Sample Run:
 1. Register all ros devices in new wifi: (use 'sudo nano ~/.bashrc')
 [ADD THESE LINES IN .BASHRC] 
 
