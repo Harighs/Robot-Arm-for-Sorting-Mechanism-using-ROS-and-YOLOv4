@@ -134,3 +134,9 @@ on master:
 
 on slave:
 	1. <rosrun beginner_tutorials watcher.py>
+
+	
+## Working Video
+[![Sample video of testing it](https://youtu.be/zcNAyf5Y-F0)
+
+
