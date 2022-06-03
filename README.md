@@ -137,6 +137,9 @@ on slave:
 
 	
 ## Working Video
-[![Sample video of testing it](Assets/robot.jpg)]([https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE](https://youtu.be/zcNAyf5Y-F0))
-
+<p align='center'>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=zcNAyf5Y-F0" title="sample working video" frameborder="0"
+allow="acceleromerter; autoplay; clipboard-writer;encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+</p>
 
