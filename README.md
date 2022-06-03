@@ -137,9 +137,5 @@ on slave:
 
 	
 ## Working Video
-<p align='center'>
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=zcNAyf5Y-F0" title="sample working video" frameborder="0"
-allow="acceleromerter; autoplay; clipboard-writer;encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
-</p>
+"https://www.youtube.com/embed/zcNAyf5Y-F0"
 
