@@ -52,7 +52,9 @@ After this please make the asssembly of diy robot from "Joy-It" link: https://jo
 - cuda version 11.4
 - nvcc 
 - yolov4 architecture
-- labled dataset from our custom prepared datasets: [link](https://www.kaggle.com/datasets/harigovindasamy/socks-color-dataset-white-and-black)
+
+### Our own custom Dataset
+https://www.kaggle.com/datasets/harigovindasamy/socks-color-dataset-white-and-black
 
 Procedures for building up Yolo Architecture:
 1. Disable "Secure - Boot" by the command: [source](https://wiki.ubuntu.com/UEFI/SecureBoot/DKMS)
@@ -134,3 +136,8 @@ on master:
 
 on slave:
 	1. <rosrun beginner_tutorials watcher.py>
+
+	
+## Working Video
+"https://www.youtube.com/embed/zcNAyf5Y-F0"
+
