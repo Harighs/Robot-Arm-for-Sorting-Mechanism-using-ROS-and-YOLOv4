@@ -1,0 +1,16 @@
+[  2%] [34m[1mAutomatic MOC for target moveit_setup_assistant_tools[0m
+[  2%] Built target moveit_setup_assistant_tools_autogen
+[  5%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_setup_assistant/lib/libmoveit_setup_assistant_tools.so[0m
+[ 20%] Built target moveit_setup_assistant_tools
+[ 25%] [34m[1mAutomatic MOC for target moveit_setup_assistant_updater[0m
+[ 25%] [34m[1mAutomatic MOC for target moveit_setup_assistant_widgets[0m
+[ 25%] Built target moveit_setup_assistant_widgets_autogen
+[ 25%] Built target moveit_setup_assistant_updater_autogen
+[ 28%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_setup_assistant/lib/moveit_setup_assistant/collisions_updater[0m
+[ 30%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_setup_assistant/lib/libmoveit_setup_assistant_widgets.so[0m
+[ 35%] Built target moveit_setup_assistant_updater
+[ 89%] Built target moveit_setup_assistant_widgets
+[ 92%] [34m[1mAutomatic MOC for target moveit_setup_assistant[0m
+[ 92%] Built target moveit_setup_assistant_autogen
+[ 94%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_setup_assistant/lib/moveit_setup_assistant/moveit_setup_assistant[0m
+[100%] Built target moveit_setup_assistant

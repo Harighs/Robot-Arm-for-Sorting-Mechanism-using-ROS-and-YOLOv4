@@ -1,0 +1,10 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~simplify_solutions" : \b [bool] Flag indicating whether computed motion plans are also simplified min: False, default: True, max: True
+- \b "~minimum_waypoint_count" : \b [int] Set the minimum number of waypoints to include in a motion plan min: 2, default: 2, max: 10000
+- \b "~maximum_waypoint_distance" : \b [double] The maximum distance between consecutive waypoints along the solution path (0.0 means 'ignore') min: 0.0, default: 0.0, max: 50.0
+- \b "~link_for_exploration_tree" : \b [str] Show the exploration tree for a particular link min: , default: , max: 
+- \b "~display_random_valid_states" : \b [bool] Flag indicating whether random valid states are to be published min: False, default: False, max: True
+

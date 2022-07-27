@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/devel/.private/moveit_servo
+
+Name: moveit_servo
+Description: Description of moveit_servo
+Version: 1.1.9
+Cflags: -I/home/ros/ws_moveit/src/moveit/moveit_ros/moveit_servo/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lpose_tracking -lmoveit_servo_cpp_api
+Requires: control_msgs control_toolbox geometry_msgs moveit_msgs moveit_ros_planning_interface rosparam_shortcuts sensor_msgs std_msgs std_srvs tf2_eigen trajectory_msgs

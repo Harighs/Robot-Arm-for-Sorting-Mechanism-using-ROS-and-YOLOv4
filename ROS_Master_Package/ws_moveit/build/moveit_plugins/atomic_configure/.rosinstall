@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/ws_moveit/devel/.private/moveit_plugins/setup.sh

@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/install
+
+Name: moveit_planners_chomp
+Description: Description of moveit_planners_chomp
+Version: 1.1.9
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmoveit_planners_chomp
+Requires: roscpp moveit_core pluginlib

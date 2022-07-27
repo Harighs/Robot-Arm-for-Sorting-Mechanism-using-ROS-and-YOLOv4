@@ -1,0 +1,60 @@
+[35m[1mScanning dependencies of target motion_planning_api_tutorial[0m
+[35m[1mScanning dependencies of target motion_planning_pipeline_tutorial[0m
+[35m[1mScanning dependencies of target move_group_interface_tutorial[0m
+[  2%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_tutorials/lib/libcontroller_manager_example.so[0m
+[  4%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_tutorials/lib/moveit_tutorials/ros_api_tutorial[0m
+[  6%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_tutorials/lib/libinteractivity_utils.so[0m
+[  9%] [32mBuilding CXX object doc/motion_planning_api/CMakeFiles/motion_planning_api_tutorial.dir/src/motion_planning_api_tutorial.cpp.o[0m
+[ 11%] [32mBuilding CXX object doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/src/move_group_interface_tutorial.cpp.o[0m
+[ 13%] [32mBuilding CXX object doc/motion_planning_pipeline/CMakeFiles/motion_planning_pipeline_tutorial.dir/src/motion_planning_pipeline_tutorial.cpp.o[0m
+[ 15%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_tutorials/lib/moveit_tutorials/bag_publisher_maintain_time[0m
+[ 22%] Built target interactivity_utils
+[ 25%] Built target controller_manager_example
+[ 27%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_tutorials/lib/moveit_tutorials/detect_and_add_cylinder_collision_object_demo[0m
+[ 29%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_tutorials/lib/moveit_tutorials/pick_place_tutorial[0m
+[ 31%] Built target ros_api_tutorial
+[ 34%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_tutorials/lib/moveit_tutorials/planning_scene_tutorial[0m
+[ 36%] Built target bag_publisher_maintain_time
+[35m[1mScanning dependencies of target planning_scene_ros_api_tutorial[0m
+[ 38%] [32mBuilding CXX object doc/planning_scene_ros_api/CMakeFiles/planning_scene_ros_api_tutorial.dir/src/planning_scene_ros_api_tutorial.cpp.o[0m
+[ 40%] Built target pick_place_tutorial
+[ 43%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_tutorials/lib/moveit_tutorials/robot_model_and_robot_state_tutorial[0m
+[ 45%] Built target planning_scene_tutorial
+[ 47%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_tutorials/lib/moveit_tutorials/state_display_tutorial[0m
+[ 50%] Built target robot_model_and_robot_state_tutorial
+[35m[1mScanning dependencies of target subframes_tutorial[0m
+[ 52%] [32mBuilding CXX object doc/subframes/CMakeFiles/subframes_tutorial.dir/src/subframes_tutorial.cpp.o[0m
+[ 54%] Built target state_display_tutorial
+[35m[1mScanning dependencies of target trajopt_example[0m
+[ 56%] [32mBuilding CXX object doc/trajopt_planner/CMakeFiles/trajopt_example.dir/src/trajopt_example.cpp.o[0m
+[ 59%] Built target detect_and_add_cylinder_collision_object_demo
+[35m[1mScanning dependencies of target moveit_lerp_planner_plugin[0m
+[ 61%] [32mBuilding CXX object doc/creating_moveit_plugins/lerp_motion_planner/CMakeFiles/moveit_lerp_planner_plugin.dir/src/lerp_planner_manager.cpp.o[0m
+[35m[1mScanning dependencies of target lerp_example[0m
+[ 63%] [32mBuilding CXX object doc/creating_moveit_plugins/lerp_motion_planner/CMakeFiles/lerp_example.dir/src/lerp_example.cpp.o[0m
+[ 65%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_tutorials/lib/moveit_tutorials/move_group_interface_tutorial[0m
+[ 68%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_tutorials/lib/libmoveit_lerp_planner_plugin.so[0m
+[ 68%] Built target move_group_interface_tutorial
+[ 72%] Built target moveit_lerp_planner_plugin
+[35m[1mScanning dependencies of target moveit_cpp_tutorial[0m
+[ 75%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_tutorials/lib/moveit_tutorials/visualizing_collisions_tutorial[0m
+[ 77%] [32mBuilding CXX object doc/moveit_cpp/CMakeFiles/moveit_cpp_tutorial.dir/src/moveit_cpp_tutorial.cpp.o[0m
+[ 79%] Built target visualizing_collisions_tutorial
+[35m[1mScanning dependencies of target bullet_collision_checker_tutorial[0m
+[ 81%] [32mBuilding CXX object doc/bullet_collision_checker/CMakeFiles/bullet_collision_checker_tutorial.dir/src/bullet_collision_checker_tutorial.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_tutorials/lib/moveit_tutorials/planning_scene_ros_api_tutorial[0m
+[ 84%] Built target planning_scene_ros_api_tutorial
+[ 86%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_tutorials/lib/moveit_tutorials/motion_planning_api_tutorial[0m
+[ 88%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_tutorials/lib/moveit_tutorials/motion_planning_pipeline_tutorial[0m
+[ 88%] Built target motion_planning_api_tutorial
+[ 88%] Built target motion_planning_pipeline_tutorial
+[ 90%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_tutorials/lib/moveit_tutorials/trajopt_example[0m
+[ 93%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_tutorials/lib/moveit_tutorials/lerp_example[0m
+[ 93%] Built target trajopt_example
+[ 93%] Built target lerp_example
+[ 95%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_tutorials/lib/moveit_tutorials/moveit_cpp_tutorial[0m
+[ 95%] Built target moveit_cpp_tutorial
+[ 97%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_tutorials/lib/moveit_tutorials/subframes_tutorial[0m
+[ 97%] Built target subframes_tutorial
+[100%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_tutorials/lib/moveit_tutorials/bullet_collision_checker_tutorial[0m
+[100%] Built target bullet_collision_checker_tutorial

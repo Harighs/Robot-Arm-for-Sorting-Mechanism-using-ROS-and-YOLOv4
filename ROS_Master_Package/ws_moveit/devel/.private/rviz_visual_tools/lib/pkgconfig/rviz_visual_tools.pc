@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/devel/.private/rviz_visual_tools
+
+Name: rviz_visual_tools
+Description: Description of rviz_visual_tools
+Version: 3.9.1
+Cflags: -I/home/ros/ws_moveit/src/rviz_visual_tools/include -I/usr/include/OGRE
+Libs: -L${prefix}/lib -lrviz_visual_tools -lrviz_visual_tools_gui -lrviz_visual_tools_remote_control -lrviz_visual_tools_imarker_simple
+Requires: geometry_msgs graph_msgs interactive_markers shape_msgs roscpp sensor_msgs std_msgs tf2_eigen tf2_ros trajectory_msgs visualization_msgs

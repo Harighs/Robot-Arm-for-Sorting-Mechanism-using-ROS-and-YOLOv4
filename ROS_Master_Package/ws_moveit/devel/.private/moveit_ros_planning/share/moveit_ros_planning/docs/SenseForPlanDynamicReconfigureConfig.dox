@@ -1,0 +1,9 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~max_safe_path_cost" : \b [double] Set the maximum cost that is allowed for a path to be considered safe min: 0.0, default: 0.01, max: 1000.0
+- \b "~max_look_attempts" : \b [int] Set the maximum number of times a sensor can be pointed to parts of the environment doring a motion plan min: 0, default: 3, max: 100
+- \b "~max_cost_sources" : \b [int] Set the maximum number of cost sources to be considered when computing the cost of a motion plan min: 1, default: 100, max: 10000
+- \b "~discard_overlapping_cost_sources" : \b [double] Set the maximum similarity to allow between distinct cost sources (similar cost sources are discarded) min: 0.01, default: 0.8, max: 1.0
+

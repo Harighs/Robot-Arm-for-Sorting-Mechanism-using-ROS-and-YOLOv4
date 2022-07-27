@@ -1,0 +1,124 @@
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target moveit_msgs_generate_messages_cpp
+[  0%] Built target trajectory_msgs_generate_messages_py
+[  0%] Built target control_toolbox_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target moveit_msgs_generate_messages_nodejs
+[  0%] Built target control_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_gencfg
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target control_toolbox_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target shape_msgs_generate_messages_nodejs
+[  0%] Built target control_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target moveit_msgs_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target control_toolbox_generate_messages_eus
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[  0%] Built target moveit_ros_planning_gencfg
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target control_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[  0%] Built target shape_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target object_recognition_msgs_generate_messages_py
+[  0%] Built target _catkin_empty_exported_target
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target moveit_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target control_msgs_generate_messages_py
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[  0%] Built target control_toolbox_generate_messages_py
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[  0%] Built target control_msgs_generate_messages_eus
+[  0%] Built target control_toolbox_gencfg
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target shape_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target control_toolbox_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target moveit_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target shape_msgs_generate_messages_cpp
+[  0%] Built target moveit_ros_manipulation_gencfg
+[  0%] Built target object_recognition_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target object_recognition_msgs_generate_messages_eus
+[  0%] Built target object_recognition_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target object_recognition_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target octomap_msgs_generate_messages_lisp
+[  0%] Built target octomap_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target octomap_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target octomap_msgs_generate_messages_eus
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target octomap_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target shape_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target moveit_servo_cpp_api[0m
+[  6%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_servo/lib/moveit_servo/spacenav_to_twist[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/moveit_servo_cpp_api.dir/src/collision_check.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/moveit_servo_cpp_api.dir/src/servo_calcs.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/moveit_servo_cpp_api.dir/src/servo.cpp.o[0m
+[ 33%] Built target spacenav_to_twist
+[ 40%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_servo/lib/libmoveit_servo_cpp_api.so[0m
+[ 46%] Built target moveit_servo_cpp_api
+[35m[1mScanning dependencies of target servo_server[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/servo_server.dir/src/servo_server.cpp.o[0m
+[35m[1mScanning dependencies of target pose_tracking[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/pose_tracking.dir/src/pose_tracking.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_servo/lib/moveit_servo/servo_server[0m
+[35m[1mScanning dependencies of target cpp_interface_example[0m
+[ 66%] Built target servo_server
+[ 73%] [32mBuilding CXX object CMakeFiles/cpp_interface_example.dir/src/cpp_interface_example/cpp_interface_example.cpp.o[0m
+[ 80%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_servo/lib/libpose_tracking.so[0m
+[ 80%] Built target pose_tracking
+[35m[1mScanning dependencies of target pose_tracking_example[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/pose_tracking_example.dir/src/cpp_interface_example/pose_tracking_example.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_servo/lib/moveit_servo/cpp_interface_example[0m
+[ 93%] Built target cpp_interface_example
+[100%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_servo/lib/moveit_servo/pose_tracking_example[0m
+[100%] Built target pose_tracking_example

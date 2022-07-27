@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/devel/.private/CDL_Robot_compile
+
+Name: CDL_Robot_compile
+Description: Description of CDL_Robot_compile
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

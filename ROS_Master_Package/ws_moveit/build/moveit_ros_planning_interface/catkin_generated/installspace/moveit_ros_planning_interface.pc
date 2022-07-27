@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/install
+
+Name: moveit_ros_planning_interface
+Description: Description of moveit_ros_planning_interface
+Version: 1.1.9
+Cflags: -I${prefix}/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lmoveit_common_planning_interface_objects -lmoveit_planning_scene_interface -lmoveit_move_group_interface -lmoveit_py_bindings_tools
+Requires: actionlib geometry_msgs moveit_msgs moveit_ros_planning moveit_ros_warehouse moveit_ros_manipulation moveit_ros_move_group roscpp tf2_geometry_msgs

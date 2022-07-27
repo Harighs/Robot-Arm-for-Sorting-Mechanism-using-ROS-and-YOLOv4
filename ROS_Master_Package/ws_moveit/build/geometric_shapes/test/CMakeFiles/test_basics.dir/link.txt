@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/test_basics.dir/test_basics.cpp.o  -o /home/ros/ws_moveit/devel/.private/geometric_shapes/lib/geometric_shapes/test_basics   -L/home/ros/ws_moveit/build/geometric_shapes/gtest  -Wl,-rpath,/home/ros/ws_moveit/build/geometric_shapes/gtest:/home/ros/ws_moveit/build/geometric_shapes/gtest/lib ../gtest/lib/libgtest.so -lpthread 

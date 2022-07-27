@@ -1,0 +1,11 @@
+[  0%] Built target graph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target moveit_visual_tools[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_visual_tools/lib/libmoveit_visual_tools.so[0m
+[ 66%] Built target moveit_visual_tools
+[35m[1mScanning dependencies of target moveit_visual_tools_demo[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools_demo.dir/src/moveit_visual_tools_demo.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_visual_tools/lib/moveit_visual_tools/moveit_visual_tools_demo[0m
+[100%] Built target moveit_visual_tools_demo

@@ -1,0 +1,1 @@
+/home/ros/ws_moveit/devel/.private/CDL_Robot_compiled_2/lib/pkgconfig/CDL_Robot_compiled_2.pc

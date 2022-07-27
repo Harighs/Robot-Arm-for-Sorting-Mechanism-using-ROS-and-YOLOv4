@@ -1,0 +1,14 @@
+[  4%] [34m[1mGenerating dynamic reconfigure files from ompl_interface/cfg/OMPLDynamicReconfigure.cfg: /home/ros/ws_moveit/devel/.private/moveit_planners_ompl/include/moveit_planners_ompl/OMPLDynamicReconfigureConfig.h /home/ros/ws_moveit/devel/.private/moveit_planners_ompl/lib/python3/dist-packages/moveit_planners_ompl/cfg/OMPLDynamicReconfigureConfig.py[0m
+Generating reconfiguration files for OMPLDynamicReconfigure in moveit_planners_ompl
+Wrote header file in /home/ros/ws_moveit/devel/.private/moveit_planners_ompl/include/moveit_planners_ompl/OMPLDynamicReconfigureConfig.h
+[  8%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_planners_ompl/lib/libmoveit_ompl_interface.so[0m
+[  8%] Built target moveit_planners_ompl_gencfg
+[ 82%] Built target moveit_ompl_interface
+[35m[1mScanning dependencies of target moveit_generate_state_database[0m
+[ 86%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_generate_state_database.dir/scripts/generate_state_database.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_planners_ompl/lib/moveit_planners_ompl/generate_state_database[0m
+[ 91%] Built target moveit_generate_state_database
+[35m[1mScanning dependencies of target moveit_ompl_planner_plugin[0m
+[ 95%] [32mBuilding CXX object ompl_interface/CMakeFiles/moveit_ompl_planner_plugin.dir/src/ompl_planner_manager.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_planners_ompl/lib/libmoveit_ompl_planner_plugin.so[0m
+[100%] Built target moveit_ompl_planner_plugin

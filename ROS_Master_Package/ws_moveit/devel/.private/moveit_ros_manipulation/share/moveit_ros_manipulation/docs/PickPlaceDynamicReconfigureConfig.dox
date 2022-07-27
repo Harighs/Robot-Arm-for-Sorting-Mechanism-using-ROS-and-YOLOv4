@@ -1,0 +1,9 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~max_attempted_states_per_pose" : \b [int] The maximum number of robot configurations to attempt at a particular eef pose min: 1, default: 5, max: 100
+- \b "~max_consecutive_fail_attempts" : \b [int] The maximum consecutive failures at generating configurations matching a pose before failure min: 1, default: 3, max: 10
+- \b "~cartesian_motion_step_size" : \b [double] The distance (meters, for end-effector) between consecutive waypoints on Cartesian motions min: 0.005, default: 0.02, max: 0.1
+- \b "~jump_factor" : \b [double] The maximum allowed distance in configuration space between consecutive waypoints on Cartesian motions min: 0.0, default: 2.0, max: 10.0
+

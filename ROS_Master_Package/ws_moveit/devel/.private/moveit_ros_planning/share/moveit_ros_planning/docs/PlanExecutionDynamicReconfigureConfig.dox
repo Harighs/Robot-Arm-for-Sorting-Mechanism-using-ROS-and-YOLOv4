@@ -1,0 +1,7 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~max_replan_attempts" : \b [int] Set the maximum number of times a sensor can be pointed to parts of the environment doring a motion plan min: 0, default: 5, max: 1000
+- \b "~record_trajectory_state_frequency" : \b [double] The frequency at which to record states when monitoring trajectories min: 0.0, default: 0.0, max: 1000.0
+

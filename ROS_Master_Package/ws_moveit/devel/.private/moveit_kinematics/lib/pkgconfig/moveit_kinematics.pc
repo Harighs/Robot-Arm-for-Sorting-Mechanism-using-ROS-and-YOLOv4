@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/devel/.private/moveit_kinematics
+
+Name: moveit_kinematics
+Description: Description of moveit_kinematics
+Version: 1.1.9
+Cflags: -I/home/ros/ws_moveit/src/moveit/moveit_kinematics/kdl_kinematics_plugin/include -I/home/ros/ws_moveit/src/moveit/moveit_kinematics/lma_kinematics_plugin/include -I/home/ros/ws_moveit/src/moveit/moveit_kinematics/srv_kinematics_plugin/include -I/home/ros/ws_moveit/src/moveit/moveit_kinematics/cached_ik_kinematics_plugin/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib 
+Requires: moveit_core pluginlib roscpp

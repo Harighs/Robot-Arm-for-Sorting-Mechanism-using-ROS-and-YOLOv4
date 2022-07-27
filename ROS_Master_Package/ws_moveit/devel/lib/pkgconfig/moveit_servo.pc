@@ -1,0 +1,1 @@
+/home/ros/ws_moveit/devel/.private/moveit_servo/lib/pkgconfig/moveit_servo.pc

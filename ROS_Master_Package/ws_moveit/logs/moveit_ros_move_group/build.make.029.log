@@ -1,0 +1,110 @@
+[35m[1mScanning dependencies of target list_move_group_capabilities[0m
+[  5%] [32mBuilding CXX object CMakeFiles/list_move_group_capabilities.dir/src/list_capabilities.cpp.o[0m
+[ 10%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_ros_move_group/lib/moveit_ros_move_group/list_move_group_capabilities[0m
+[ 10%] Built target list_move_group_capabilities
+[ 10%] Built target object_recognition_msgs_generate_messages_eus
+[ 10%] Built target std_srvs_generate_messages_nodejs
+[ 10%] Built target std_srvs_generate_messages_lisp
+[ 10%] Built target std_srvs_generate_messages_eus
+[ 10%] Built target dynamic_reconfigure_gencfg
+[ 10%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 10%] Built target actionlib_generate_messages_py
+[ 10%] Built target actionlib_generate_messages_nodejs
+[ 10%] Built target actionlib_generate_messages_cpp
+[ 10%] Built target dynamic_reconfigure_generate_messages_nodejs
+[ 10%] Built target tf2_msgs_generate_messages_py
+[ 10%] Built target tf2_msgs_generate_messages_lisp
+[ 10%] Built target dynamic_reconfigure_generate_messages_lisp
+[ 10%] Built target tf2_msgs_generate_messages_cpp
+[ 10%] Built target octomap_msgs_generate_messages_py
+[ 10%] Built target octomap_msgs_generate_messages_nodejs
+[ 10%] Built target octomap_msgs_generate_messages_lisp
+[ 10%] Built target octomap_msgs_generate_messages_cpp
+[ 10%] Built target object_recognition_msgs_generate_messages_nodejs
+[ 10%] Built target roscpp_generate_messages_eus
+[ 10%] Built target visualization_msgs_generate_messages_nodejs
+[ 10%] Built target visualization_msgs_generate_messages_lisp
+[ 10%] Built target dynamic_reconfigure_generate_messages_eus
+[ 10%] Built target geometry_msgs_generate_messages_nodejs
+[ 10%] Built target visualization_msgs_generate_messages_eus
+[ 10%] Built target geometry_msgs_generate_messages_cpp
+[ 10%] Built target moveit_msgs_generate_messages_py
+[ 10%] Built target object_recognition_msgs_generate_messages_lisp
+[ 10%] Built target actionlib_msgs_generate_messages_cpp
+[ 10%] Built target octomap_msgs_generate_messages_eus
+[ 10%] Built target object_recognition_msgs_generate_messages_cpp
+[ 10%] Built target std_msgs_generate_messages_py
+[ 10%] Built target std_msgs_generate_messages_nodejs
+[ 10%] Built target geometry_msgs_generate_messages_eus
+[ 10%] Built target roscpp_generate_messages_cpp
+[ 10%] Built target geometry_msgs_generate_messages_py
+[ 10%] Built target moveit_msgs_generate_messages_eus
+[ 10%] Built target tf2_msgs_generate_messages_eus
+[ 10%] Built target sensor_msgs_generate_messages_py
+[ 10%] Built target roscpp_generate_messages_nodejs
+[ 10%] Built target geometry_msgs_generate_messages_lisp
+[ 10%] Built target visualization_msgs_generate_messages_py
+[ 10%] Built target actionlib_generate_messages_lisp
+[ 10%] Built target shape_msgs_generate_messages_cpp
+[ 10%] Built target roscpp_generate_messages_lisp
+[ 10%] Built target _catkin_empty_exported_target
+[ 10%] Built target std_msgs_generate_messages_lisp
+[ 10%] Built target tf2_msgs_generate_messages_nodejs
+[ 10%] Built target moveit_msgs_generate_messages_lisp
+[ 10%] Built target std_srvs_generate_messages_cpp
+[ 10%] Built target rosgraph_msgs_generate_messages_lisp
+[ 10%] Built target dynamic_reconfigure_generate_messages_py
+[ 10%] Built target actionlib_msgs_generate_messages_eus
+[ 10%] Built target shape_msgs_generate_messages_eus
+[ 10%] Built target std_msgs_generate_messages_cpp
+[ 10%] Built target rosgraph_msgs_generate_messages_py
+[ 10%] Built target shape_msgs_generate_messages_nodejs
+[ 10%] Built target shape_msgs_generate_messages_py
+[ 10%] Built target actionlib_generate_messages_eus
+[ 10%] Built target trajectory_msgs_generate_messages_py
+[ 10%] Built target rosgraph_msgs_generate_messages_cpp
+[ 10%] Built target std_srvs_generate_messages_py
+[ 10%] Built target moveit_ros_planning_gencfg
+[ 10%] Built target rosgraph_msgs_generate_messages_eus
+[ 10%] Built target object_recognition_msgs_generate_messages_py
+[ 10%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 10%] Built target actionlib_msgs_generate_messages_py
+[ 10%] Built target moveit_msgs_generate_messages_cpp
+[ 10%] Built target moveit_msgs_generate_messages_nodejs
+[ 10%] Built target std_msgs_generate_messages_eus
+[ 10%] Built target actionlib_msgs_generate_messages_lisp
+[ 10%] Built target actionlib_msgs_generate_messages_nodejs
+[ 10%] Built target trajectory_msgs_generate_messages_cpp
+[ 10%] Built target sensor_msgs_generate_messages_cpp
+[ 10%] Built target visualization_msgs_generate_messages_cpp
+[ 10%] Built target sensor_msgs_generate_messages_eus
+[ 10%] Built target sensor_msgs_generate_messages_lisp
+[ 10%] Built target sensor_msgs_generate_messages_nodejs
+[ 10%] Built target roscpp_generate_messages_py
+[ 10%] Built target trajectory_msgs_generate_messages_eus
+[ 10%] Built target trajectory_msgs_generate_messages_nodejs
+[ 10%] Built target shape_msgs_generate_messages_lisp
+[ 10%] Built target trajectory_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target moveit_move_group_capabilities_base[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/moveit_move_group_capabilities_base.dir/src/move_group_context.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/moveit_move_group_capabilities_base.dir/src/move_group_capability.cpp.o[0m
+[ 26%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_move_group/lib/libmoveit_move_group_capabilities_base.so[0m
+[ 26%] Built target moveit_move_group_capabilities_base
+[35m[1mScanning dependencies of target move_group[0m
+[35m[1mScanning dependencies of target moveit_move_group_default_capabilities[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/move_group.dir/src/move_group.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/move_action_capability.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/plan_service_capability.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/execute_trajectory_action_capability.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/query_planners_service_capability.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/kinematics_service_capability.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/state_validation_service_capability.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/cartesian_path_service_capability.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/get_planning_scene_service_capability.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/apply_planning_scene_service_capability.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_ros_move_group/lib/moveit_ros_move_group/move_group[0m
+[ 84%] Built target move_group
+[ 89%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/clear_octomap_service_capability.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/tf_publisher_capability.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.so[0m
+[100%] Built target moveit_move_group_default_capabilities

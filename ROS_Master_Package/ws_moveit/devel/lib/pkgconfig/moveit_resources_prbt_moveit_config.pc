@@ -1,0 +1,1 @@
+/home/ros/ws_moveit/devel/.private/moveit_resources_prbt_moveit_config/lib/pkgconfig/moveit_resources_prbt_moveit_config.pc

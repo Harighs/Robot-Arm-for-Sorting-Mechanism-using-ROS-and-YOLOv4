@@ -1,0 +1,24 @@
+[  3%] [34m[1mAutomatic MOC for target rviz_visual_tools_remote_control[0m
+[  7%] [34m[1mAutomatic MOC for target rviz_visual_tools_gui[0m
+[  7%] Built target rviz_visual_tools_remote_control_autogen
+[  7%] Built target rviz_visual_tools_gui_autogen
+[ 11%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so[0m
+[ 14%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/rviz_visual_tools/lib/librviz_visual_tools_gui.so[0m
+[ 22%] Built target rviz_visual_tools_remote_control
+[ 25%] [34m[1mAutomatic MOC for target rviz_visual_tools[0m
+[ 25%] Built target rviz_visual_tools_autogen
+[ 29%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/rviz_visual_tools/lib/librviz_visual_tools.so[0m
+[ 40%] Built target rviz_visual_tools
+[ 44%] [34m[1mAutomatic MOC for target rviz_visual_tools_demo[0m
+[ 48%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple[0m
+[ 48%] Built target rviz_visual_tools_demo_autogen
+[ 48%] Built target rviz_visual_tools_imarker_simple_autogen
+[ 51%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/rviz_visual_tools/lib/rviz_visual_tools/demo[0m
+[ 55%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so[0m
+[ 62%] Built target rviz_visual_tools_imarker_simple
+[ 66%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple_demo[0m
+[ 66%] Built target rviz_visual_tools_imarker_simple_demo_autogen
+[ 70%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/rviz_visual_tools/lib/rviz_visual_tools/imarker_simple_demo[0m
+[ 77%] Built target rviz_visual_tools_demo
+[ 92%] Built target rviz_visual_tools_gui
+[100%] Built target rviz_visual_tools_imarker_simple_demo

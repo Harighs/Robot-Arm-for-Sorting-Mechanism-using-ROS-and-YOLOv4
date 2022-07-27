@@ -1,0 +1,118 @@
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  4%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_perception/lib/libmoveit_point_containment_filter.so[0m
+[  8%] Built target moveit_point_containment_filter
+[ 13%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_perception/lib/libmoveit_mesh_filter.so[0m
+[ 34%] Built target moveit_mesh_filter
+[ 34%] Built target object_recognition_msgs_generate_messages_nodejs
+[ 34%] Built target bond_generate_messages_py
+[ 34%] Built target bond_generate_messages_lisp
+[ 34%] Built target bond_generate_messages_eus
+[ 34%] Built target nodelet_generate_messages_py
+[ 34%] Built target nodelet_generate_messages_nodejs
+[ 34%] Built target nodelet_generate_messages_eus
+[ 34%] Built target nodelet_generate_messages_cpp
+[ 34%] Built target dynamic_reconfigure_gencfg
+[ 34%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 34%] Built target actionlib_generate_messages_py
+[ 34%] Built target actionlib_generate_messages_nodejs
+[ 34%] Built target actionlib_generate_messages_cpp
+[ 34%] Built target bond_generate_messages_cpp
+[ 34%] Built target dynamic_reconfigure_generate_messages_nodejs
+[ 34%] Built target tf2_msgs_generate_messages_py
+[ 34%] Built target tf2_msgs_generate_messages_lisp
+[ 34%] Built target dynamic_reconfigure_generate_messages_lisp
+[ 34%] Built target tf2_msgs_generate_messages_cpp
+[ 34%] Built target bond_generate_messages_nodejs
+[ 34%] Built target octomap_msgs_generate_messages_py
+[ 34%] Built target octomap_msgs_generate_messages_nodejs
+[ 34%] Built target octomap_msgs_generate_messages_lisp
+[ 34%] Built target octomap_msgs_generate_messages_cpp
+[ 34%] Built target visualization_msgs_generate_messages_nodejs
+[ 34%] Built target visualization_msgs_generate_messages_lisp
+[ 34%] Built target dynamic_reconfigure_generate_messages_eus
+[ 34%] Built target visualization_msgs_generate_messages_eus
+[ 34%] Built target moveit_msgs_generate_messages_py
+[ 34%] Built target object_recognition_msgs_generate_messages_lisp
+[ 34%] Built target actionlib_msgs_generate_messages_cpp
+[ 34%] Built target octomap_msgs_generate_messages_eus
+[ 34%] Built target object_recognition_msgs_generate_messages_cpp
+[ 34%] Built target shape_msgs_generate_messages_eus
+[ 34%] Built target shape_msgs_generate_messages_cpp
+[ 34%] Built target actionlib_generate_messages_lisp
+[ 34%] Built target roscpp_generate_messages_lisp
+[ 34%] Built target nodelet_generate_messages_lisp
+[ 34%] Built target tf2_msgs_generate_messages_eus
+[ 34%] Built target moveit_msgs_generate_messages_eus
+[ 34%] Built target tf2_msgs_generate_messages_nodejs
+[ 34%] Built target moveit_msgs_generate_messages_lisp
+[ 34%] Built target rosgraph_msgs_generate_messages_lisp
+[ 34%] Built target dynamic_reconfigure_generate_messages_py
+[ 34%] Built target actionlib_msgs_generate_messages_eus
+[ 34%] Built target shape_msgs_generate_messages_nodejs
+[ 34%] Built target rosgraph_msgs_generate_messages_py
+[ 34%] Built target visualization_msgs_generate_messages_cpp
+[ 34%] Built target roscpp_generate_messages_cpp
+[ 34%] Built target shape_msgs_generate_messages_py
+[ 34%] Built target visualization_msgs_generate_messages_py
+[ 34%] Built target roscpp_generate_messages_eus
+[ 34%] Built target roscpp_generate_messages_nodejs
+[ 34%] Built target actionlib_generate_messages_eus
+[ 34%] Built target trajectory_msgs_generate_messages_py
+[ 34%] Built target rosgraph_msgs_generate_messages_cpp
+[ 34%] Built target moveit_ros_planning_gencfg
+[ 34%] Built target rosgraph_msgs_generate_messages_eus
+[ 34%] Built target object_recognition_msgs_generate_messages_py
+[ 34%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 34%] Built target actionlib_msgs_generate_messages_py
+[ 34%] Built target moveit_msgs_generate_messages_cpp
+[ 34%] Built target moveit_msgs_generate_messages_nodejs
+[ 34%] Built target actionlib_msgs_generate_messages_lisp
+[ 34%] Built target actionlib_msgs_generate_messages_nodejs
+[ 34%] Built target trajectory_msgs_generate_messages_cpp
+[ 34%] Built target roscpp_generate_messages_py
+[ 34%] Built target trajectory_msgs_generate_messages_eus
+[ 34%] Built target trajectory_msgs_generate_messages_nodejs
+[ 34%] Built target shape_msgs_generate_messages_lisp
+[ 34%] Built target trajectory_msgs_generate_messages_lisp
+[ 34%] Built target object_recognition_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target moveit_lazy_free_space_updater[0m
+[ 39%] [32mBuilding CXX object lazy_free_space_updater/CMakeFiles/moveit_lazy_free_space_updater.dir/src/lazy_free_space_updater.cpp.o[0m
+[ 43%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_perception/lib/libmoveit_lazy_free_space_updater.so[0m
+[ 43%] Built target moveit_lazy_free_space_updater
+[35m[1mScanning dependencies of target moveit_pointcloud_octomap_updater_core[0m
+[ 47%] [32mBuilding CXX object pointcloud_octomap_updater/CMakeFiles/moveit_pointcloud_octomap_updater_core.dir/src/pointcloud_octomap_updater.cpp.o[0m
+[35m[1mScanning dependencies of target moveit_depth_self_filter[0m
+[ 52%] [32mBuilding CXX object mesh_filter/CMakeFiles/moveit_depth_self_filter.dir/src/depth_self_filter_nodelet.cpp.o[0m
+[ 56%] [32mBuilding CXX object mesh_filter/CMakeFiles/moveit_depth_self_filter.dir/src/transform_provider.cpp.o[0m
+[35m[1mScanning dependencies of target moveit_depth_image_octomap_updater_core[0m
+[ 60%] [32mBuilding CXX object depth_image_octomap_updater/CMakeFiles/moveit_depth_image_octomap_updater_core.dir/src/depth_image_octomap_updater.cpp.o[0m
+[ 65%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_perception/lib/libmoveit_semantic_world.so[0m
+[ 69%] Built target moveit_semantic_world
+[ 73%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_perception/lib/libmoveit_pointcloud_octomap_updater_core.so[0m
+[ 73%] Built target moveit_pointcloud_octomap_updater_core
+[ 78%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_perception/lib/libmoveit_depth_image_octomap_updater_core.so[0m
+[ 78%] Built target moveit_depth_image_octomap_updater_core
+[ 82%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_perception/lib/libmoveit_depth_self_filter.so[0m
+[ 82%] Built target moveit_depth_self_filter
+[35m[1mScanning dependencies of target moveit_pointcloud_octomap_updater[0m
+[ 86%] [32mBuilding CXX object pointcloud_octomap_updater/CMakeFiles/moveit_pointcloud_octomap_updater.dir/src/plugin_init.cpp.o[0m
+[35m[1mScanning dependencies of target moveit_depth_image_octomap_updater[0m
+[ 91%] [32mBuilding CXX object depth_image_octomap_updater/CMakeFiles/moveit_depth_image_octomap_updater.dir/src/updater_plugin.cpp.o[0m
+[ 95%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_perception/lib/libmoveit_pointcloud_octomap_updater.so[0m
+[ 95%] Built target moveit_pointcloud_octomap_updater
+[100%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_perception/lib/libmoveit_depth_image_octomap_updater.so[0m
+[100%] Built target moveit_depth_image_octomap_updater

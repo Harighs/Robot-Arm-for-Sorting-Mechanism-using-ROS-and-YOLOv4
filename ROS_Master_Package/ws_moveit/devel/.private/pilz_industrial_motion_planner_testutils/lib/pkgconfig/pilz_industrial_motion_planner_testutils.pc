@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/devel/.private/pilz_industrial_motion_planner_testutils
+
+Name: pilz_industrial_motion_planner_testutils
+Description: Description of pilz_industrial_motion_planner_testutils
+Version: 1.1.9
+Cflags: -I/home/ros/ws_moveit/src/moveit/moveit_planners/pilz_industrial_motion_planner_testutils/include -I/usr/include
+Libs: -L${prefix}/lib -lpilz_industrial_motion_planner_testutils
+Requires: moveit_core moveit_msgs

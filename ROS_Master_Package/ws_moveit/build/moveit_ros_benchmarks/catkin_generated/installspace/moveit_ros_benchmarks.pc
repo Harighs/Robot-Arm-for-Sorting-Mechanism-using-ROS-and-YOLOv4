@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/install
+
+Name: moveit_ros_benchmarks
+Description: Description of moveit_ros_benchmarks
+Version: 1.1.9
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmoveit_ros_benchmarks
+Requires: tf2_eigen moveit_ros_planning moveit_ros_warehouse roscpp

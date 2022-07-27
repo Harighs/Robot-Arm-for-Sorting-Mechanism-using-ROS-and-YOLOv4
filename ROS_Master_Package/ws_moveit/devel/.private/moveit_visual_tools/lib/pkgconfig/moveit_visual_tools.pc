@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/devel/.private/moveit_visual_tools
+
+Name: moveit_visual_tools
+Description: Description of moveit_visual_tools
+Version: 3.6.0
+Cflags: -I/home/ros/ws_moveit/src/moveit_visual_tools/include
+Libs: -L${prefix}/lib -lmoveit_visual_tools
+Requires: roscpp rviz_visual_tools moveit_ros_planning moveit_core geometry_msgs visualization_msgs graph_msgs std_msgs trajectory_msgs

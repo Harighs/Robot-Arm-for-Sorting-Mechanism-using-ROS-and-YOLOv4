@@ -1,0 +1,33 @@
+[35m[1mScanning dependencies of target moveit_warehouse[0m
+[  5%] [32mBuilding CXX object warehouse/CMakeFiles/moveit_warehouse.dir/src/moveit_message_storage.cpp.o[0m
+[ 10%] [32mBuilding CXX object warehouse/CMakeFiles/moveit_warehouse.dir/src/planning_scene_storage.cpp.o[0m
+[ 15%] [32mBuilding CXX object warehouse/CMakeFiles/moveit_warehouse.dir/src/planning_scene_world_storage.cpp.o[0m
+[ 20%] [32mBuilding CXX object warehouse/CMakeFiles/moveit_warehouse.dir/src/constraints_storage.cpp.o[0m
+[ 25%] [32mBuilding CXX object warehouse/CMakeFiles/moveit_warehouse.dir/src/trajectory_constraints_storage.cpp.o[0m
+[ 30%] [32mBuilding CXX object warehouse/CMakeFiles/moveit_warehouse.dir/src/state_storage.cpp.o[0m
+[ 35%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_warehouse/lib/libmoveit_warehouse.so[0m
+[ 40%] Built target moveit_warehouse
+[35m[1mScanning dependencies of target moveit_warehouse_save_as_text[0m
+[ 45%] [32mBuilding CXX object warehouse/CMakeFiles/moveit_warehouse_save_as_text.dir/src/save_as_text.cpp.o[0m
+[35m[1mScanning dependencies of target moveit_warehouse_broadcast[0m
+[ 50%] [32mBuilding CXX object warehouse/CMakeFiles/moveit_warehouse_broadcast.dir/src/broadcast.cpp.o[0m
+[35m[1mScanning dependencies of target moveit_save_to_warehouse[0m
+[ 55%] [32mBuilding CXX object warehouse/CMakeFiles/moveit_save_to_warehouse.dir/src/save_to_warehouse.cpp.o[0m
+[35m[1mScanning dependencies of target moveit_warehouse_import_from_text[0m
+[ 60%] [32mBuilding CXX object warehouse/CMakeFiles/moveit_warehouse_import_from_text.dir/src/import_from_text.cpp.o[0m
+[ 65%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_broadcast[0m
+[ 65%] Built target moveit_warehouse_broadcast
+[35m[1mScanning dependencies of target moveit_init_demo_warehouse[0m
+[ 70%] [32mBuilding CXX object warehouse/CMakeFiles/moveit_init_demo_warehouse.dir/src/initialize_demo_db.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text[0m
+[ 75%] Built target moveit_warehouse_save_as_text
+[35m[1mScanning dependencies of target moveit_warehouse_services[0m
+[ 80%] [32mBuilding CXX object warehouse/CMakeFiles/moveit_warehouse_services.dir/src/warehouse_services.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text[0m
+[ 85%] Built target moveit_warehouse_import_from_text
+[ 90%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_services[0m
+[ 90%] Built target moveit_warehouse_services
+[ 95%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse[0m
+[ 95%] Built target moveit_save_to_warehouse
+[100%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_init_demo_warehouse[0m
+[100%] Built target moveit_init_demo_warehouse

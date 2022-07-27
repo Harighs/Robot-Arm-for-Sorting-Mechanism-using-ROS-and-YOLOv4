@@ -1,0 +1,2 @@
+moveit/moveit_ros/moveit_ros
+/home/ros/ws_moveit/devel/.private/moveit_ros/cmake.lock /home/ros/ws_moveit/devel/./cmake.lock

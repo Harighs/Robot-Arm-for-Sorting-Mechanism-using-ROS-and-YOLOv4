@@ -1,0 +1,1 @@
+/home/ros/ws_moveit/devel/.private/moveit_resources_prbt_ikfast_manipulator_plugin/lib/pkgconfig/moveit_resources_prbt_ikfast_manipulator_plugin.pc

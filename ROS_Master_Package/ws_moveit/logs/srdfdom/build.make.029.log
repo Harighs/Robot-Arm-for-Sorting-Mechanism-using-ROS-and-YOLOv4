@@ -1,0 +1,2 @@
+[ 33%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/srdfdom/lib/libsrdfdom.so[0m
+[100%] Built target srdfdom

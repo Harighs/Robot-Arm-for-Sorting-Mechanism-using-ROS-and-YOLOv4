@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/install
+
+Name: moveit_ros_manipulation
+Description: Description of moveit_ros_manipulation
+Version: 1.1.9
+Cflags: -I${prefix}/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lmoveit_pick_place_planner
+Requires: actionlib dynamic_reconfigure moveit_core moveit_msgs moveit_ros_planning roscpp

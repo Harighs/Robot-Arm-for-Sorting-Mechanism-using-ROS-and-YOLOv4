@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/devel/.private/moveit_ros_planning
+
+Name: moveit_ros_planning
+Description: Description of moveit_ros_planning
+Version: 1.1.9
+Cflags: -I/home/ros/ws_moveit/devel/.private/moveit_ros_planning/include -I/home/ros/ws_moveit/src/moveit/moveit_ros/planning/rdf_loader/include -I/home/ros/ws_moveit/src/moveit/moveit_ros/planning/kinematics_plugin_loader/include -I/home/ros/ws_moveit/src/moveit/moveit_ros/planning/robot_model_loader/include -I/home/ros/ws_moveit/src/moveit/moveit_ros/planning/constraint_sampler_manager_loader/include -I/home/ros/ws_moveit/src/moveit/moveit_ros/planning/planning_pipeline/include -I/home/ros/ws_moveit/src/moveit/moveit_ros/planning/planning_scene_monitor/include -I/home/ros/ws_moveit/src/moveit/moveit_ros/planning/trajectory_execution_manager/include -I/home/ros/ws_moveit/src/moveit/moveit_ros/planning/plan_execution/include -I/home/ros/ws_moveit/src/moveit/moveit_ros/planning/collision_plugin_loader/include -I/home/ros/ws_moveit/src/moveit/moveit_ros/planning/moveit_cpp/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lmoveit_rdf_loader -lmoveit_kinematics_plugin_loader -lmoveit_robot_model_loader -lmoveit_constraint_sampler_manager_loader -lmoveit_planning_pipeline -lmoveit_trajectory_execution_manager -lmoveit_plan_execution -lmoveit_planning_scene_monitor -lmoveit_collision_plugin_loader -lmoveit_cpp
+Requires: actionlib dynamic_reconfigure moveit_core moveit_ros_occupancy_map_monitor moveit_msgs pluginlib roscpp tf2_msgs tf2_geometry_msgs

@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/devel/.private/panda_moveit_config
+
+Name: panda_moveit_config
+Description: Description of panda_moveit_config
+Version: 0.7.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

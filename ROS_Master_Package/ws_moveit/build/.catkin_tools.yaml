@@ -1,0 +1,6 @@
+devel_space: /home/ros/ws_moveit/devel
+install: false
+install_space: /home/ros/ws_moveit/install
+profile: default
+source_space: /home/ros/ws_moveit/src
+workspace: /home/ros/ws_moveit

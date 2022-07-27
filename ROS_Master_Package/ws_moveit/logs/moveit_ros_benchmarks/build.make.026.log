@@ -1,0 +1,3 @@
+[ 42%] Built target moveit_ros_benchmarks
+[ 71%] Built target moveit_combine_predefined_poses_benchmark
+[100%] Built target moveit_run_benchmark

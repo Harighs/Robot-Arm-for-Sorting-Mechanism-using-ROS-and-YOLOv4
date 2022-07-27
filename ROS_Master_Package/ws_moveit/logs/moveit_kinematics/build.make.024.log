@@ -1,0 +1,8 @@
+[ 11%] Built target moveit_lma_kinematics_plugin
+[ 23%] Built target gtest
+[ 47%] Built target benchmark_ik
+[ 47%] Built target moveit_cached_ik_kinematics_base
+[ 58%] Built target moveit_srv_kinematics_plugin
+[ 76%] Built target moveit_kdl_kinematics_plugin
+[ 88%] Built target test_kinematics_plugin
+[100%] Built target moveit_cached_ik_kinematics_plugin

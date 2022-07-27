@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target moveit_chomp_optimizer_adapter[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/moveit_chomp_optimizer_adapter.dir/src/chomp_optimizer_adapter.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_chomp_optimizer_adapter/lib/libmoveit_chomp_optimizer_adapter.so[0m
+[100%] Built target moveit_chomp_optimizer_adapter

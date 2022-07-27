@@ -1,0 +1,56 @@
+[  1%] [34m[1mAutomatic MOC for target moveit_rviz_plugin_render_tools[0m
+[  1%] Built target moveit_rviz_plugin_render_tools_autogen
+[35m[1mScanning dependencies of target moveit_rviz_plugin_render_tools[0m
+[  3%] [32mBuilding CXX object rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/octomap_render.cpp.o[0m
+[  5%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_visualization/lib/libmoveit_rviz_plugin_render_tools.so[0m
+[ 18%] Built target moveit_rviz_plugin_render_tools
+[ 21%] [34m[1mAutomatic MOC for target moveit_robot_state_rviz_plugin_core[0m
+[ 21%] [34m[1mAutomatic MOC for target moveit_planning_scene_rviz_plugin_core[0m
+[ 21%] Built target moveit_robot_state_rviz_plugin_core_autogen
+[ 21%] Built target moveit_planning_scene_rviz_plugin_core_autogen
+[35m[1mScanning dependencies of target moveit_planning_scene_rviz_plugin_core[0m
+[ 23%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_visualization/lib/libmoveit_robot_state_rviz_plugin_core.so[0m
+[ 25%] [32mBuilding CXX object planning_scene_rviz_plugin/CMakeFiles/moveit_planning_scene_rviz_plugin_core.dir/moveit_planning_scene_rviz_plugin_core_autogen/mocs_compilation.cpp.o[0m
+[ 29%] Built target moveit_robot_state_rviz_plugin_core
+[ 30%] [34m[1mAutomatic MOC for target moveit_robot_state_rviz_plugin[0m
+[ 30%] Built target moveit_robot_state_rviz_plugin_autogen
+[ 32%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_visualization/lib/libmoveit_robot_state_rviz_plugin.so[0m
+[ 36%] Built target moveit_robot_state_rviz_plugin
+[ 38%] [32mBuilding CXX object planning_scene_rviz_plugin/CMakeFiles/moveit_planning_scene_rviz_plugin_core.dir/src/planning_scene_display.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin_core.so[0m
+[ 40%] Built target moveit_planning_scene_rviz_plugin_core
+[ 41%] [34m[1mAutomatic MOC for target moveit_motion_planning_rviz_plugin_core[0m
+[ 43%] [34m[1mAutomatic MOC for target moveit_trajectory_rviz_plugin_core[0m
+[ 45%] [34m[1mAutomatic MOC for target moveit_planning_scene_rviz_plugin[0m
+[ 45%] Built target moveit_motion_planning_rviz_plugin_core_autogen
+[ 45%] Built target moveit_trajectory_rviz_plugin_core_autogen
+[ 45%] Built target moveit_planning_scene_rviz_plugin_autogen
+[35m[1mScanning dependencies of target moveit_planning_scene_rviz_plugin[0m
+[ 47%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_visualization/lib/libmoveit_trajectory_rviz_plugin_core.so[0m
+[35m[1mScanning dependencies of target moveit_motion_planning_rviz_plugin_core[0m
+[ 49%] [32mBuilding CXX object planning_scene_rviz_plugin/CMakeFiles/moveit_planning_scene_rviz_plugin.dir/src/plugin_init.cpp.o[0m
+[ 52%] Built target moveit_trajectory_rviz_plugin_core
+[ 54%] [34m[1mAutomatic MOC for target moveit_trajectory_rviz_plugin[0m
+[ 54%] Built target moveit_trajectory_rviz_plugin_autogen
+[ 56%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_visualization/lib/libmoveit_trajectory_rviz_plugin.so[0m
+[ 58%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame.cpp.o[0m
+[ 60%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/moveit_motion_planning_rviz_plugin_core_autogen/mocs_compilation.cpp.o[0m
+[ 61%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_context.cpp.o[0m
+[ 63%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_planning.cpp.o[0m
+[ 67%] Built target moveit_trajectory_rviz_plugin
+[ 69%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_objects.cpp.o[0m
+[ 70%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin.so[0m
+[ 72%] Built target moveit_planning_scene_rviz_plugin
+[ 74%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_scenes.cpp.o[0m
+[ 76%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_states.cpp.o[0m
+[ 78%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_joints_widget.cpp.o[0m
+[ 80%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_display.cpp.o[0m
+[ 81%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_manipulation.cpp.o[0m
+[ 83%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin_core.so[0m
+[ 92%] Built target moveit_motion_planning_rviz_plugin_core
+[ 94%] [34m[1mAutomatic MOC for target moveit_motion_planning_rviz_plugin[0m
+[ 94%] Built target moveit_motion_planning_rviz_plugin_autogen
+[35m[1mScanning dependencies of target moveit_motion_planning_rviz_plugin[0m
+[ 96%] [32mBuilding CXX object motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin.dir/src/plugin_init.cpp.o[0m
+[ 98%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin.so[0m
+[100%] Built target moveit_motion_planning_rviz_plugin

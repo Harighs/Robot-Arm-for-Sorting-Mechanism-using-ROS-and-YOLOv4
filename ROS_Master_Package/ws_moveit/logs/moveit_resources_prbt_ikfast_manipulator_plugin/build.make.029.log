@@ -1,0 +1,2 @@
+[ 50%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_resources_prbt_ikfast_manipulator_plugin/lib/libprbt_manipulator_moveit_ikfast_plugin.so[0m
+[100%] Built target prbt_manipulator_moveit_ikfast_plugin

@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/install
+
+Name: moveit_resources_fanuc_description
+Description: Description of moveit_resources_fanuc_description
+Version: 0.8.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

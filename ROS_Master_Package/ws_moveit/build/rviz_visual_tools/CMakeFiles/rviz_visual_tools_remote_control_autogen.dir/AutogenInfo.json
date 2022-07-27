@@ -1,0 +1,68 @@
+{
+	"BUILD_DIR" : "/home/ros/ws_moveit/build/rviz_visual_tools/rviz_visual_tools_remote_control_autogen",
+	"CMAKE_BINARY_DIR" : "/home/ros/ws_moveit/build/rviz_visual_tools",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/ros/ws_moveit/build/rviz_visual_tools",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/ros/ws_moveit/src/rviz_visual_tools",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/ros/ws_moveit/src/rviz_visual_tools",
+	"HEADERS" : [],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/ros/ws_moveit/build/rviz_visual_tools/rviz_visual_tools_remote_control_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/ros/ws_moveit/build/rviz_visual_tools/rviz_visual_tools_remote_control_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_NO_KEYWORDS",
+		"ROSCONSOLE_BACKEND_LOG4CXX",
+		"ROS_BUILD_SHARED_LIBS=1",
+		"ROS_PACKAGE_NAME=\"rviz_visual_tools\"",
+		"rviz_visual_tools_remote_control_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/ros/ws_moveit/build/rviz_visual_tools",
+		"/home/ros/ws_moveit/src/rviz_visual_tools",
+		"/home/ros/ws_moveit/src/rviz_visual_tools/include",
+		"/opt/ros/noetic/include",
+		"/opt/ros/noetic/include/xmlrpcpp",
+		"/usr/include/eigen3",
+		"/usr/include/OGRE/Overlay",
+		"/usr/include/OGRE",
+		"/usr/include",
+		"/usr/include",
+		"/usr/include/c++/9",
+		"/usr/include/x86_64-linux-gnu/c++/9",
+		"/usr/include/c++/9/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/ros/ws_moveit/build/rviz_visual_tools/CMakeFiles/rviz_visual_tools_remote_control_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/ros/ws_moveit/build/rviz_visual_tools/CMakeFiles/rviz_visual_tools_remote_control_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/ros/ws_moveit/src/rviz_visual_tools/src/remote_control.cpp",
+			"Mu"
+		]
+	],
+	"VERBOSITY" : 0
+}

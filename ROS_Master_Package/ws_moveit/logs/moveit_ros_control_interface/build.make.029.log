@@ -1,0 +1,4 @@
+[ 25%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_plugin.so[0m
+[ 50%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_trajectory_plugin.so[0m
+[ 75%] Built target moveit_ros_control_interface_trajectory_plugin
+[100%] Built target moveit_ros_control_interface_plugin

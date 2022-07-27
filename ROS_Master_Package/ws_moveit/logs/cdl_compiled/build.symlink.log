@@ -1,0 +1,3 @@
+Symlinking /home/ros/ws_moveit/devel/share/cdl_compiled/cmake/cdl_compiledConfig-version.cmake
+Symlinking /home/ros/ws_moveit/devel/share/cdl_compiled/cmake/cdl_compiledConfig.cmake
+Symlinking /home/ros/ws_moveit/devel/lib/pkgconfig/cdl_compiled.pc

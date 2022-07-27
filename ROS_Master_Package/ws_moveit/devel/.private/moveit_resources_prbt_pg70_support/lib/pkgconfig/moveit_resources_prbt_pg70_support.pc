@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/devel/.private/moveit_resources_prbt_pg70_support
+
+Name: moveit_resources_prbt_pg70_support
+Description: Description of moveit_resources_prbt_pg70_support
+Version: 0.8.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

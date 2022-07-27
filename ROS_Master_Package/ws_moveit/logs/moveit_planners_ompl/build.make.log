@@ -1,0 +1,4 @@
+[  4%] Built target moveit_planners_ompl_gencfg
+[ 82%] Built target moveit_ompl_interface
+[ 91%] Built target moveit_ompl_planner_plugin
+[100%] Built target moveit_generate_state_database

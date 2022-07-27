@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="CDL_Robot">
+  <link
+    name="Base">
+    <inertial>
+      <origin
+        xyz="0.0698718119340906 -5.62784538541139E-05 0.00867476825692626"
+        rpy="0 0 0" />
+      <mass
+        value="0.435083130115151" />
+      <inertia
+        ixx="0.000783939273998367"
+        ixy="2.50321988143194E-06"
+        ixz="0.000116393419131874"
+        iyy="0.00324996137118823"
+        iyz="3.07248108849271E-09"
+        izz="0.00384917282235335" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CDL_Robot/meshes/Base.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CDL_Robot/meshes/Base.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Link_1">
+    <inertial>
+      <origin
+        xyz="0.0036376422273873 0.0141722918875967 -0.000114876148289825"
+        rpy="0 0 0" />
+      <mass
+        value="0.0899846158063378" />
+      <inertia
+        ixx="2.59369054137883E-05"
+        ixy="1.31163485201208E-07"
+        ixz="7.57333889178447E-08"
+        iyy="4.78001548297527E-05"
+        iyz="2.48760744427791E-15"
+        izz="2.46536172789297E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CDL_Robot/meshes/Link_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CDL_Robot/meshes/Link_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint_1"
+    type="revolute">
+    <origin
+      xyz="0 0 0.057"
+      rpy="1.5708 0 1.57" />
+    <parent
+      link="Base" />
+    <child
+      link="Link_1" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-1.04"
+      upper="1.45"
+      effort="30"
+      velocity="130" />
+  </joint>
+  <link
+    name="Link_2">
+    <inertial>
+      <origin
+        xyz="0.0115000000000015 -0.0525000000000001 -6.35602681597902E-15"
+        rpy="0 0 0" />
+      <mass
+        value="0.0164969468010178" />
+      <inertia
+        ixx="7.42405250829535E-06"
+        ixy="-1.66301491564036E-20"
+        ixz="2.25253523071255E-18"
+        iyy="1.05334862992884E-05"
+        iyz="-7.09675676513726E-21"
+        izz="1.62139226119761E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CDL_Robot/meshes/Link_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.427450980392157 0.447058823529412 0.427450980392157 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CDL_Robot/meshes/Link_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint_2"
+    type="revolute">
+    <origin
+      xyz="0 0.0283 -0.011"
+      rpy="3.1407 0 0" />
+    <parent
+      link="Link_1" />
+    <child
+      link="Link_2" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="-1.56"
+      upper="1.56"
+      effort="30"
+      velocity="130" />
+  </joint>
+  <link
+    name="Link3">
+    <inertial>
+      <origin
+        xyz="-0.0228336670142768 -0.000809776397526232 0.0099999347894551"
+        rpy="0 0 0" />
+      <mass
+        value="0.0406237040474477" />
+      <inertia
+        ixx="1.00264626930775E-05"
+        ixy="9.60078336408906E-14"
+        ixz="-7.57333421626085E-08"
+        iyy="1.70976105050017E-05"
+        iyz="1.31162467072324E-07"
+        izz="1.00911909979495E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CDL_Robot/meshes/Link3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CDL_Robot/meshes/Link3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint_3"
+    type="revolute">
+    <origin
+      xyz="0 -0.105 0"
+      rpy="1.5708 1.088E-05 1.5708" />
+    <parent
+      link="Link_2" />
+    <child
+      link="Link3" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.56"
+      upper="1.56"
+      effort="30"
+      velocity="130" />
+  </joint>
+  <link
+    name="Link_4">
+    <inertial>
+      <origin
+        xyz="-0.016567214692327 -0.0142999999992768 0.00201721469275148"
+        rpy="0 0 0" />
+      <mass
+        value="0.0647504612912834" />
+      <inertia
+        ixx="1.11388842865089E-05"
+        ixy="1.31162464723774E-07"
+        ixz="-1.51466777824251E-07"
+        iyy="1.79812983971034E-05"
+        iyz="1.31162464622315E-07"
+        izz="1.11388842873083E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CDL_Robot/meshes/Link_4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CDL_Robot/meshes/Link_4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint_4"
+    type="revolute">
+    <origin
+      xyz="-0.10145 0.0012 0"
+      rpy="0 0 -1.5781" />
+    <parent
+      link="Link3" />
+    <child
+      link="Link_4" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.56"
+      upper="1.56"
+      effort="30"
+      velocity="130" />
+  </joint>
+  <link
+    name="Link_5">
+    <inertial>
+      <origin
+        xyz="0.0012915000630617 0.00353405467613166 0.0250109127087532"
+        rpy="0 0 0" />
+      <mass
+        value="0.0374198163594604" />
+      <inertia
+        ixx="4.63651905868586E-06"
+        ixy="-1.19895875683736E-07"
+        ixz="2.9945482008485E-08"
+        iyy="7.35118150024239E-06"
+        iyz="-2.3473650396101E-08"
+        izz="9.79920289858528E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CDL_Robot/meshes/Link_5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CDL_Robot/meshes/Link_5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint_5"
+    type="revolute">
+    <origin
+      xyz="-0.049378 -0.0286 -0.01455"
+      rpy="1.5708 1.5698 -1.5708" />
+    <parent
+      link="Link_4" />
+    <child
+      link="Link_5" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.56"
+      upper="1.56"
+      effort="30"
+      velocity="130" />
+  </joint>
+  <link
+    name="Gripper_link">
+    <inertial>
+      <origin
+        xyz="0.000945587861758912 -0.0425734560227513 0.0155971899059145"
+        rpy="0 0 0" />
+      <mass
+        value="0.00780650699275202" />
+      <inertia
+        ixx="1.85095983036743E-06"
+        ixy="-1.63751792467894E-07"
+        ixz="-2.68330751358054E-09"
+        iyy="2.16092899820039E-07"
+        iyz="-6.09928910515487E-08"
+        izz="2.04211060513417E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CDL_Robot/meshes/Gripper_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.686274509803922 0.658823529411765 0.63921568627451 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CDL_Robot/meshes/Gripper_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Gripper_Joint"
+    type="revolute">
+    <origin
+      xyz="0.0125 0 0.028421"
+      rpy="-1.5708 0.31752 0" />
+    <parent
+      link="Link_5" />
+    <child
+      link="Gripper_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-0.7"
+      upper="0.7"
+      effort="30"
+      velocity="80" />
+    <mimic
+      joint="gripper"
+      multiplier="1"
+      offset="0" />
+  </joint>
+  <link
+    name="gripper_sec">
+    <inertial>
+      <origin
+        xyz="0.000945587861758745 -0.0425734560227511 -0.0155971899059147"
+        rpy="0 0 0" />
+      <mass
+        value="0.00780650699275201" />
+      <inertia
+        ixx="1.85095983036743E-06"
+        ixy="-1.63751792467892E-07"
+        ixz="2.68330751358065E-09"
+        iyy="2.16092899820037E-07"
+        iyz="6.09928910515441E-08"
+        izz="2.04211060513417E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CDL_Robot/meshes/gripper_sec.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://CDL_Robot/meshes/gripper_sec.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="gripper"
+    type="revolute">
+    <origin
+      xyz="-0.0125 0 0.028421"
+      rpy="-1.5708 0.31752 -3.1416" />
+    <parent
+      link="Link_5" />
+    <child
+      link="gripper_sec" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-0.7"
+      upper="0.7"
+      effort="30"
+      velocity="80" />
+  </joint>
+</robot>

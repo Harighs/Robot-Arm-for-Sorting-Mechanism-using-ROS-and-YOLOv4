@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: Test_robot_arm_urdf
+    relative_path: urdf/Test_robot_arm_urdf.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/Test_robot_arm_urdf.srdf
+  CONFIG:
+    author_name: hari
+    author_email: harishankar@gmail.com
+    generated_timestamp: 1647903403

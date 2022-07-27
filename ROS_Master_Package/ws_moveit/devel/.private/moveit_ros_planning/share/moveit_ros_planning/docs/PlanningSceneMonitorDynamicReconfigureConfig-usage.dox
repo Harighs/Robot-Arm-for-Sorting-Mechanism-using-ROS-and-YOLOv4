@@ -1,0 +1,11 @@
+\subsubsection usage Usage
+\verbatim
+<node name="moveit_ros_planning" pkg="moveit_ros_planning" type="moveit_ros_planning">
+  <param name="publish_planning_scene" type="bool" value="False" />
+  <param name="publish_planning_scene_hz" type="double" value="4.0" />
+  <param name="publish_geometry_updates" type="bool" value="True" />
+  <param name="publish_state_updates" type="bool" value="False" />
+  <param name="publish_transforms_updates" type="bool" value="False" />
+</node>
+\endverbatim
+

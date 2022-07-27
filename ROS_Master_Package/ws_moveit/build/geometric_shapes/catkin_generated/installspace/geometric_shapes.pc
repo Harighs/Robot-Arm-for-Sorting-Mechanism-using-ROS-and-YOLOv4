@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/install
+
+Name: geometric_shapes
+Description: Description of geometric_shapes
+Version: 0.7.3
+Cflags: -I${prefix}/include -I/usr/include/eigen3 -I/opt/ros/noetic/include -I/usr/include
+Libs: -L${prefix}/lib -lgeometric_shapes /opt/ros/noetic/lib/liboctomap.so /opt/ros/noetic/lib/liboctomath.so /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+Requires: eigen_stl_containers random_numbers shape_msgs visualization_msgs

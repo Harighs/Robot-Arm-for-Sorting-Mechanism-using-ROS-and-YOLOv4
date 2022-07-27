@@ -1,0 +1,8 @@
+\subsubsection usage Usage
+\verbatim
+<node name="moveit_ros_planning" pkg="moveit_ros_planning" type="moveit_ros_planning">
+  <param name="max_replan_attempts" type="int" value="5" />
+  <param name="record_trajectory_state_frequency" type="double" value="0.0" />
+</node>
+\endverbatim
+

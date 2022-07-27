@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/ws_moveit/devel/.private/CDL_Robot_compiled_3/setup.sh

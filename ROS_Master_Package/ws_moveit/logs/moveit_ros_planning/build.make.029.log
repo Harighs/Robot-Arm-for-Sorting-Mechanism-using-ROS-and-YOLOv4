@@ -1,0 +1,158 @@
+[  1%] [34m[1mGenerating dynamic reconfigure files from planning_scene_monitor/cfg/PlanningSceneMonitorDynamicReconfigure.cfg: /home/ros/ws_moveit/devel/.private/moveit_ros_planning/include/moveit_ros_planning/PlanningSceneMonitorDynamicReconfigureConfig.h /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/python3/dist-packages/moveit_ros_planning/cfg/PlanningSceneMonitorDynamicReconfigureConfig.py[0m
+[  3%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/libmoveit_rdf_loader.so[0m
+[  5%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/libmoveit_planning_pipeline.so[0m
+[  6%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/libmoveit_constraint_sampler_manager_loader.so[0m
+[  8%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/moveit_ros_planning/moveit_list_request_adapter_plugins[0m
+[ 10%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/libmoveit_collision_plugin_loader.so[0m
+[ 11%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/libmoveit_default_planning_request_adapter_plugins.so[0m
+Generating reconfiguration files for PlanningSceneMonitorDynamicReconfigure in moveit_ros_planning
+Wrote header file in /home/ros/ws_moveit/devel/.private/moveit_ros_planning/include/moveit_ros_planning/PlanningSceneMonitorDynamicReconfigureConfig.h
+[ 13%] [34m[1mGenerating dynamic reconfigure files from trajectory_execution_manager/cfg/TrajectoryExecutionDynamicReconfigure.cfg: /home/ros/ws_moveit/devel/.private/moveit_ros_planning/include/moveit_ros_planning/TrajectoryExecutionDynamicReconfigureConfig.h /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/python3/dist-packages/moveit_ros_planning/cfg/TrajectoryExecutionDynamicReconfigureConfig.py[0m
+Generating reconfiguration files for TrajectoryExecutionDynamicReconfigure in moveit_ros_planning
+Wrote header file in /home/ros/ws_moveit/devel/.private/moveit_ros_planning/include/moveit_ros_planning/TrajectoryExecutionDynamicReconfigureConfig.h
+[ 15%] Built target moveit_collision_plugin_loader
+[ 16%] Built target moveit_rdf_loader
+[ 18%] [34m[1mGenerating dynamic reconfigure files from plan_execution/cfg/PlanExecutionDynamicReconfigure.cfg: /home/ros/ws_moveit/devel/.private/moveit_ros_planning/include/moveit_ros_planning/PlanExecutionDynamicReconfigureConfig.h /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/python3/dist-packages/moveit_ros_planning/cfg/PlanExecutionDynamicReconfigureConfig.py[0m
+[ 20%] Built target dynamic_reconfigure_gencfg
+[ 20%] Built target moveit_constraint_sampler_manager_loader
+[ 21%] Built target moveit_planning_pipeline
+[ 21%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 23%] [34m[1mGenerating dynamic reconfigure files from plan_execution/cfg/SenseForPlanDynamicReconfigure.cfg: /home/ros/ws_moveit/devel/.private/moveit_ros_planning/include/moveit_ros_planning/SenseForPlanDynamicReconfigureConfig.h /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/python3/dist-packages/moveit_ros_planning/cfg/SenseForPlanDynamicReconfigureConfig.py[0m
+[ 23%] Built target actionlib_generate_messages_py
+[ 23%] Built target actionlib_generate_messages_nodejs
+[ 23%] Built target actionlib_generate_messages_cpp
+[ 23%] Built target dynamic_reconfigure_generate_messages_nodejs
+[ 25%] Built target moveit_list_request_adapter_plugins
+[ 25%] Built target tf2_msgs_generate_messages_py
+[ 25%] Built target tf2_msgs_generate_messages_lisp
+Generating reconfiguration files for PlanExecutionDynamicReconfigure in moveit_ros_planning
+[ 25%] Built target tf2_msgs_generate_messages_cpp
+[ 25%] Built target dynamic_reconfigure_generate_messages_lisp
+Wrote header file in /home/ros/ws_moveit/devel/.private/moveit_ros_planning/include/moveit_ros_planning/PlanExecutionDynamicReconfigureConfig.h
+[ 40%] Built target moveit_default_planning_request_adapter_plugins
+[ 40%] Built target octomap_msgs_generate_messages_py
+[ 40%] Built target octomap_msgs_generate_messages_nodejs
+[ 40%] Built target octomap_msgs_generate_messages_lisp
+[ 40%] Built target octomap_msgs_generate_messages_cpp
+Generating reconfiguration files for SenseForPlanDynamicReconfigure in moveit_ros_planning
+Wrote header file in /home/ros/ws_moveit/devel/.private/moveit_ros_planning/include/moveit_ros_planning/SenseForPlanDynamicReconfigureConfig.h
+[ 40%] Built target object_recognition_msgs_generate_messages_nodejs
+[ 40%] Built target roscpp_generate_messages_eus
+[ 40%] Built target visualization_msgs_generate_messages_nodejs
+[ 40%] Built target visualization_msgs_generate_messages_lisp
+[ 40%] Built target dynamic_reconfigure_generate_messages_eus
+[ 40%] Built target geometry_msgs_generate_messages_nodejs
+[ 40%] Built target geometry_msgs_generate_messages_cpp
+[ 40%] Built target visualization_msgs_generate_messages_eus
+[ 40%] Built target moveit_msgs_generate_messages_py
+[ 40%] Built target object_recognition_msgs_generate_messages_lisp
+[ 40%] Built target actionlib_msgs_generate_messages_cpp
+[ 40%] Built target octomap_msgs_generate_messages_eus
+[ 40%] Built target object_recognition_msgs_generate_messages_cpp
+[ 40%] Built target std_msgs_generate_messages_py
+[ 40%] Built target std_msgs_generate_messages_nodejs
+[ 40%] Built target geometry_msgs_generate_messages_eus
+[ 40%] Built target geometry_msgs_generate_messages_py
+[ 40%] Built target roscpp_generate_messages_cpp
+[ 40%] Built target moveit_ros_planning_gencfg
+[ 40%] Built target moveit_msgs_generate_messages_eus
+[ 40%] Built target tf2_msgs_generate_messages_eus
+[ 40%] Built target sensor_msgs_generate_messages_py
+[ 40%] Built target roscpp_generate_messages_nodejs
+[ 40%] Built target geometry_msgs_generate_messages_lisp
+[ 40%] Built target visualization_msgs_generate_messages_py
+[ 40%] Built target actionlib_generate_messages_lisp
+[ 40%] Built target _catkin_empty_exported_target
+[ 40%] Built target shape_msgs_generate_messages_cpp
+[ 40%] Built target roscpp_generate_messages_lisp
+[ 40%] Built target std_msgs_generate_messages_lisp
+[ 40%] Built target moveit_msgs_generate_messages_lisp
+[ 40%] Built target tf2_msgs_generate_messages_nodejs
+[ 40%] Built target rosgraph_msgs_generate_messages_lisp
+[ 40%] Built target shape_msgs_generate_messages_eus
+[ 40%] Built target actionlib_msgs_generate_messages_eus
+[ 40%] Built target std_msgs_generate_messages_cpp
+[ 40%] Built target dynamic_reconfigure_generate_messages_py
+[ 40%] Built target shape_msgs_generate_messages_nodejs
+[ 40%] Built target shape_msgs_generate_messages_py
+[ 40%] Built target rosgraph_msgs_generate_messages_py
+[ 40%] Built target actionlib_generate_messages_eus
+[ 40%] Built target trajectory_msgs_generate_messages_py
+[ 40%] Built target rosgraph_msgs_generate_messages_eus
+[ 40%] Built target rosgraph_msgs_generate_messages_cpp
+[ 40%] Built target object_recognition_msgs_generate_messages_py
+[ 40%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 40%] Built target actionlib_msgs_generate_messages_py
+[ 40%] Built target std_msgs_generate_messages_eus
+[ 40%] Built target moveit_msgs_generate_messages_cpp
+[ 40%] Built target moveit_msgs_generate_messages_nodejs
+[ 40%] Built target actionlib_msgs_generate_messages_lisp
+[ 40%] Built target sensor_msgs_generate_messages_cpp
+[ 40%] Built target actionlib_msgs_generate_messages_nodejs
+[ 40%] Built target trajectory_msgs_generate_messages_cpp
+[ 40%] Built target visualization_msgs_generate_messages_cpp
+[ 40%] Built target sensor_msgs_generate_messages_nodejs
+[ 40%] Built target sensor_msgs_generate_messages_eus
+[ 40%] Built target sensor_msgs_generate_messages_lisp
+[ 40%] Built target roscpp_generate_messages_py
+[ 40%] Built target trajectory_msgs_generate_messages_eus
+[ 40%] Built target trajectory_msgs_generate_messages_nodejs
+[ 40%] Built target shape_msgs_generate_messages_lisp
+[ 40%] Built target trajectory_msgs_generate_messages_lisp
+[ 40%] Built target object_recognition_msgs_generate_messages_eus
+[ 41%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/libmoveit_kinematics_plugin_loader.so[0m
+[ 43%] Built target moveit_kinematics_plugin_loader
+[ 45%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/libmoveit_robot_model_loader.so[0m
+[ 46%] Built target moveit_robot_model_loader
+[35m[1mScanning dependencies of target moveit_planning_scene_monitor[0m
+[ 48%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/moveit_ros_planning/moveit_kinematics_speed_and_validity_evaluator[0m
+[ 50%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/moveit_ros_planning/moveit_print_planning_model_info[0m
+[ 51%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/moveit_ros_planning/moveit_evaluate_state_operations_speed[0m
+[ 53%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/planning_scene_monitor.cpp.o[0m
+[ 55%] Built target moveit_kinematics_speed_and_validity_evaluator
+[ 56%] Built target moveit_evaluate_state_operations_speed
+[ 58%] Built target moveit_print_planning_model_info
+[ 60%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/libmoveit_planning_scene_monitor.so[0m
+[ 63%] Built target moveit_planning_scene_monitor
+[35m[1mScanning dependencies of target moveit_display_random_state[0m
+[35m[1mScanning dependencies of target demo_scene[0m
+[35m[1mScanning dependencies of target moveit_evaluate_collision_checking_speed[0m
+[35m[1mScanning dependencies of target moveit_publish_scene_from_text[0m
+[35m[1mScanning dependencies of target moveit_visualize_robot_collision_volume[0m
+[35m[1mScanning dependencies of target moveit_print_planning_scene_info[0m
+[35m[1mScanning dependencies of target moveit_trajectory_execution_manager[0m
+[35m[1mScanning dependencies of target moveit_compare_collision_checking_speed_fcl_bullet[0m
+[ 65%] [32mBuilding CXX object trajectory_execution_manager/CMakeFiles/moveit_trajectory_execution_manager.dir/src/trajectory_execution_manager.cpp.o[0m
+[ 66%] [32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_display_random_state.dir/src/display_random_state.cpp.o[0m
+[ 68%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/demo_scene.dir/demos/demo_scene.cpp.o[0m
+[ 70%] [32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_evaluate_collision_checking_speed.dir/src/evaluate_collision_checking_speed.cpp.o[0m
+[ 71%] [32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_visualize_robot_collision_volume.dir/src/visualize_robot_collision_volume.cpp.o[0m
+[ 73%] [32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_print_planning_scene_info.dir/src/print_planning_scene_info.cpp.o[0m
+[ 75%] [32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_publish_scene_from_text.dir/src/publish_scene_from_text.cpp.o[0m
+[ 76%] [32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_compare_collision_checking_speed_fcl_bullet.dir/src/compare_collision_speed_checking_fcl_bullet.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/moveit_ros_planning/moveit_print_planning_scene_info[0m
+[ 78%] Built target moveit_print_planning_scene_info
+[ 80%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/moveit_ros_planning/demo_scene[0m
+[ 80%] Built target demo_scene
+[ 81%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/moveit_ros_planning/moveit_publish_scene_from_text[0m
+[ 83%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/moveit_ros_planning/moveit_display_random_state[0m
+[ 85%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/moveit_ros_planning/moveit_visualize_robot_collision_volume[0m
+[ 85%] Built target moveit_display_random_state
+[ 85%] Built target moveit_publish_scene_from_text
+[ 85%] Built target moveit_visualize_robot_collision_volume
+[ 86%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/moveit_ros_planning/moveit_evaluate_collision_checking_speed[0m
+[ 86%] Built target moveit_evaluate_collision_checking_speed
+[ 88%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/moveit_ros_planning/moveit_compare_collision_checking_speed_fcl_bullet[0m
+[ 88%] Built target moveit_compare_collision_checking_speed_fcl_bullet
+[ 90%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/libmoveit_trajectory_execution_manager.so[0m
+[ 90%] Built target moveit_trajectory_execution_manager
+[35m[1mScanning dependencies of target moveit_plan_execution[0m
+[35m[1mScanning dependencies of target moveit_cpp[0m
+[ 91%] [32mBuilding CXX object plan_execution/CMakeFiles/moveit_plan_execution.dir/src/plan_with_sensing.cpp.o[0m
+[ 93%] [32mBuilding CXX object plan_execution/CMakeFiles/moveit_plan_execution.dir/src/plan_execution.cpp.o[0m
+[ 95%] [32mBuilding CXX object moveit_cpp/CMakeFiles/moveit_cpp.dir/src/planning_component.cpp.o[0m
+[ 96%] [32mBuilding CXX object moveit_cpp/CMakeFiles/moveit_cpp.dir/src/moveit_cpp.cpp.o[0m
+[ 98%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/libmoveit_cpp.so[0m
+[ 98%] Built target moveit_cpp
+[100%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_planning/lib/libmoveit_plan_execution.so[0m
+[100%] Built target moveit_plan_execution

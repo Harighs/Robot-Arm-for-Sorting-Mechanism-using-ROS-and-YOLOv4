@@ -1,0 +1,1 @@
+/home/ros/ws_moveit/devel/.private/CDL_Robot/share/CDL_Robot/cmake/CDL_RobotConfig-version.cmake

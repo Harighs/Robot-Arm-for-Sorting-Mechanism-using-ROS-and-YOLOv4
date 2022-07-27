@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/install
+
+Name: CDL_Robot
+Description: Description of CDL_Robot
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

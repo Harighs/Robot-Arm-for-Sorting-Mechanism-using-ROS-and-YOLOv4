@@ -1,0 +1,19 @@
+[  8%] [34m[1mGenerating dynamic reconfigure files from pick_place/cfg/PickPlaceDynamicReconfigure.cfg: /home/ros/ws_moveit/devel/.private/moveit_ros_manipulation/include/moveit_ros_manipulation/PickPlaceDynamicReconfigureConfig.h /home/ros/ws_moveit/devel/.private/moveit_ros_manipulation/lib/python3/dist-packages/moveit_ros_manipulation/cfg/PickPlaceDynamicReconfigureConfig.py[0m
+Generating reconfiguration files for PickPlaceDynamicReconfigure in moveit_ros_manipulation
+Wrote header file in /home/ros/ws_moveit/devel/.private/moveit_ros_manipulation/include/moveit_ros_manipulation/PickPlaceDynamicReconfigureConfig.h
+[  8%] Built target moveit_ros_manipulation_gencfg
+[35m[1mScanning dependencies of target moveit_pick_place_planner[0m
+[ 16%] [32mBuilding CXX object pick_place/CMakeFiles/moveit_pick_place_planner.dir/src/pick_place_params.cpp.o[0m
+[ 33%] [32mBuilding CXX object pick_place/CMakeFiles/moveit_pick_place_planner.dir/src/manipulation_pipeline.cpp.o[0m
+[ 33%] [32mBuilding CXX object pick_place/CMakeFiles/moveit_pick_place_planner.dir/src/reachable_valid_pose_filter.cpp.o[0m
+[ 41%] [32mBuilding CXX object pick_place/CMakeFiles/moveit_pick_place_planner.dir/src/approach_and_translate_stage.cpp.o[0m
+[ 50%] [32mBuilding CXX object pick_place/CMakeFiles/moveit_pick_place_planner.dir/src/plan_stage.cpp.o[0m
+[ 58%] [32mBuilding CXX object pick_place/CMakeFiles/moveit_pick_place_planner.dir/src/pick_place.cpp.o[0m
+[ 66%] [32mBuilding CXX object pick_place/CMakeFiles/moveit_pick_place_planner.dir/src/pick.cpp.o[0m
+[ 75%] [32mBuilding CXX object pick_place/CMakeFiles/moveit_pick_place_planner.dir/src/place.cpp.o[0m
+[ 83%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_manipulation/lib/libmoveit_pick_place_planner.so[0m
+[ 83%] Built target moveit_pick_place_planner
+[35m[1mScanning dependencies of target moveit_move_group_pick_place_capability[0m
+[ 91%] [32mBuilding CXX object move_group_pick_place_capability/CMakeFiles/moveit_move_group_pick_place_capability.dir/src/pick_place_action_capability.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_manipulation/lib/libmoveit_move_group_pick_place_capability.so[0m
+[100%] Built target moveit_move_group_pick_place_capability

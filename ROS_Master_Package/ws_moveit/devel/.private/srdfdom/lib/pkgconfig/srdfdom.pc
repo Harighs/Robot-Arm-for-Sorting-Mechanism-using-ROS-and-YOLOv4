@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/devel/.private/srdfdom
+
+Name: srdfdom
+Description: Description of srdfdom
+Version: 0.6.3
+Cflags: -I/home/ros/ws_moveit/src/srdfdom/include -I/usr/include
+Libs: -L${prefix}/lib -lsrdfdom /usr/lib/x86_64-linux-gnu/libtinyxml2.so /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+Requires: 

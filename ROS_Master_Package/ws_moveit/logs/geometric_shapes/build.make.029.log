@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target geometric_shapes[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/aabb.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/obb.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/shapes.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/geometric_shapes/lib/libgeometric_shapes.so[0m
+[100%] Built target geometric_shapes

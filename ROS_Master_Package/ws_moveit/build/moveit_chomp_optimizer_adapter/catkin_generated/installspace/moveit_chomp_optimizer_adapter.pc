@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/install
+
+Name: moveit_chomp_optimizer_adapter
+Description: Description of moveit_chomp_optimizer_adapter
+Version: 1.1.9
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

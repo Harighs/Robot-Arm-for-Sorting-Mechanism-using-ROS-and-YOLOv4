@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/install
+
+Name: moveit_ros_move_group
+Description: Description of moveit_ros_move_group
+Version: 1.1.9
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmoveit_move_group_capabilities_base
+Requires: actionlib moveit_core moveit_ros_planning roscpp std_srvs tf2_geometry_msgs

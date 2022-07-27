@@ -1,0 +1,6 @@
+[ 20%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_planners_chomp/lib/libmoveit_planners_chomp.so[0m
+[ 60%] Built target moveit_planners_chomp
+[35m[1mScanning dependencies of target chomp_planner_plugin[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/chomp_planner_plugin.dir/src/chomp_plugin.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_planners_chomp/lib/libchomp_planner_plugin.so[0m
+[100%] Built target chomp_planner_plugin

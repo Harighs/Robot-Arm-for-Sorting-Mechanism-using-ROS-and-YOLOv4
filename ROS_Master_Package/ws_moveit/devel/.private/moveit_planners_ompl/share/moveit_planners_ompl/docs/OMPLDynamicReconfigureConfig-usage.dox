@@ -1,0 +1,11 @@
+\subsubsection usage Usage
+\verbatim
+<node name="moveit_planners_ompl" pkg="moveit_planners_ompl" type="moveit_planners_ompl">
+  <param name="simplify_solutions" type="bool" value="True" />
+  <param name="minimum_waypoint_count" type="int" value="2" />
+  <param name="maximum_waypoint_distance" type="double" value="0.0" />
+  <param name="link_for_exploration_tree" type="str" value="" />
+  <param name="display_random_valid_states" type="bool" value="False" />
+</node>
+\endverbatim
+

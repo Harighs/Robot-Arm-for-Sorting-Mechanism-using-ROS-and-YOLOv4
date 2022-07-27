@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/install
+
+Name: moveit_setup_assistant
+Description: Description of moveit_setup_assistant
+Version: 1.1.9
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmoveit_setup_assistant_tools
+Requires: moveit_ros_planning moveit_ros_visualization roscpp

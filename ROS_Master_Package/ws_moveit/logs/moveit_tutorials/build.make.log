@@ -1,0 +1,20 @@
+[  4%] Built target controller_manager_example
+[ 13%] Built target interactivity_utils
+[ 18%] Built target ros_api_tutorial
+[ 22%] Built target motion_planning_api_tutorial
+[ 27%] Built target motion_planning_pipeline_tutorial
+[ 31%] Built target move_group_interface_tutorial
+[ 36%] Built target bag_publisher_maintain_time
+[ 40%] Built target detect_and_add_cylinder_collision_object_demo
+[ 45%] Built target pick_place_tutorial
+[ 50%] Built target planning_scene_tutorial
+[ 54%] Built target planning_scene_ros_api_tutorial
+[ 59%] Built target robot_model_and_robot_state_tutorial
+[ 63%] Built target state_display_tutorial
+[ 68%] Built target subframes_tutorial
+[ 72%] Built target trajopt_example
+[ 81%] Built target moveit_lerp_planner_plugin
+[ 86%] Built target lerp_example
+[ 90%] Built target moveit_cpp_tutorial
+[ 95%] Built target visualizing_collisions_tutorial
+[100%] Built target bullet_collision_checker_tutorial

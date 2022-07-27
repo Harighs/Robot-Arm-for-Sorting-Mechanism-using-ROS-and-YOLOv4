@@ -1,0 +1,1 @@
+/home/ros/ws_moveit/devel/.private/moveit_ros_occupancy_map_monitor/lib/pkgconfig/moveit_ros_occupancy_map_monitor.pc

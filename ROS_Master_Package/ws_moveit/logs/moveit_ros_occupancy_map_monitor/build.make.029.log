@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target moveit_ros_occupancy_map_monitor[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/moveit_ros_occupancy_map_monitor.dir/src/occupancy_map_monitor.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/moveit_ros_occupancy_map_monitor.dir/src/occupancy_map_updater.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_occupancy_map_monitor/lib/libmoveit_ros_occupancy_map_monitor.so[0m
+[ 60%] Built target moveit_ros_occupancy_map_monitor
+[35m[1mScanning dependencies of target moveit_ros_occupancy_map_server[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/moveit_ros_occupancy_map_server.dir/src/occupancy_map_server.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_ros_occupancy_map_monitor/lib/moveit_ros_occupancy_map_monitor/moveit_ros_occupancy_map_server[0m
+[100%] Built target moveit_ros_occupancy_map_server

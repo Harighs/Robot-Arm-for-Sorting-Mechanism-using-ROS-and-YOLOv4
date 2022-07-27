@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/install
+
+Name: moveit_planners_ompl
+Description: Description of moveit_planners_ompl
+Version: 1.1.9
+Cflags: -I${prefix}/include -I/opt/ros/noetic/include/ompl-1.5 -I/usr/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lmoveit_ompl_interface /opt/ros/noetic/lib/x86_64-linux-gnu/libompl.so /usr/lib/x86_64-linux-gnu/libboost_serialization.so /usr/lib/x86_64-linux-gnu/libboost_filesystem.so /usr/lib/x86_64-linux-gnu/libboost_system.so
+Requires: dynamic_reconfigure moveit_core roscpp

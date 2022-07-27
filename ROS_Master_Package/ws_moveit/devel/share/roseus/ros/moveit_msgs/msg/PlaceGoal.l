@@ -1,0 +1,1 @@
+/home/ros/ws_moveit/devel/.private/moveit_msgs/share/roseus/ros/moveit_msgs/msg/PlaceGoal.l

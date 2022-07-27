@@ -1,0 +1,19 @@
+[35m[1mScanning dependencies of target moveit_kdl_kinematics_plugin[0m
+[35m[1mScanning dependencies of target moveit_lma_kinematics_plugin[0m
+[  5%] [32mBuilding CXX object kdl_kinematics_plugin/CMakeFiles/moveit_kdl_kinematics_plugin.dir/src/kdl_kinematics_plugin.cpp.o[0m
+[ 11%] [32mBuilding CXX object lma_kinematics_plugin/CMakeFiles/moveit_lma_kinematics_plugin.dir/src/lma_kinematics_plugin.cpp.o[0m
+[ 17%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_kinematics/lib/libmoveit_lma_kinematics_plugin.so[0m
+[ 17%] Built target moveit_lma_kinematics_plugin
+[ 23%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so[0m
+[ 29%] Built target moveit_srv_kinematics_plugin
+[ 35%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so[0m
+[ 41%] Built target moveit_cached_ik_kinematics_base
+[ 47%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_kinematics/lib/moveit_kinematics/benchmark_ik[0m
+[ 52%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_kinematics/lib/libmoveit_kdl_kinematics_plugin.so[0m
+[ 58%] Built target benchmark_ik
+[ 70%] Built target gtest
+[ 76%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_kinematics/lib/moveit_kinematics/test_kinematics_plugin[0m
+[ 82%] Built target moveit_kdl_kinematics_plugin
+[ 88%] Built target test_kinematics_plugin
+[ 94%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so[0m
+[100%] Built target moveit_cached_ik_kinematics_plugin

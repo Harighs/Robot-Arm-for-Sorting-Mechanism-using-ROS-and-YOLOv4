@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/install
+
+Name: moveit_ros_occupancy_map_monitor
+Description: Description of moveit_ros_occupancy_map_monitor
+Version: 1.1.9
+Cflags: -I${prefix}/include -I/usr/include/eigen3 -I/opt/ros/noetic/include
+Libs: -L${prefix}/lib -lmoveit_ros_occupancy_map_monitor /opt/ros/noetic/lib/liboctomap.so /opt/ros/noetic/lib/liboctomath.so
+Requires: moveit_core moveit_msgs geometric_shapes tf2_ros

@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: CDL_Robot
+    relative_path: urdf/CDL_Robot.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/CDL_Robot.srdf
+  CONFIG:
+    author_name: hari
+    author_email: Harishankar@gmail.com
+    generated_timestamp: 1652807594

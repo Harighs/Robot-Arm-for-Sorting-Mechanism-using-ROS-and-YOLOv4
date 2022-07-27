@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/install
+
+Name: moveit_simple_controller_manager
+Description: Description of moveit_simple_controller_manager
+Version: 1.1.9
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmoveit_simple_controller_manager
+Requires: actionlib control_msgs moveit_core roscpp

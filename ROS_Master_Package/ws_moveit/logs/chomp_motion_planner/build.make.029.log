@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target chomp_motion_planner[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_optimizer.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_planner.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/chomp_motion_planner/lib/libchomp_motion_planner.so[0m
+[100%] Built target chomp_motion_planner

@@ -1,0 +1,2 @@
+[ 33%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_simple_controller_manager/lib/libmoveit_simple_controller_manager.so[0m
+[100%] Built target moveit_simple_controller_manager

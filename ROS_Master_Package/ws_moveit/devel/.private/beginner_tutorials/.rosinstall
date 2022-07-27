@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/ws_moveit/devel/.private/beginner_tutorials/setup.sh

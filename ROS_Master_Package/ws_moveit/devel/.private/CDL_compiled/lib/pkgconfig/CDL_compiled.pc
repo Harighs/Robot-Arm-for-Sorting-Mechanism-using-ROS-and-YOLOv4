@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/devel/.private/CDL_compiled
+
+Name: CDL_compiled
+Description: Description of CDL_compiled
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

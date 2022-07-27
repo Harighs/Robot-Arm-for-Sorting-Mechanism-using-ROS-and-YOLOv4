@@ -1,0 +1,1 @@
+/home/ros/ws_moveit/devel/.private/moveit_commander/lib/pkgconfig/moveit_commander.pc

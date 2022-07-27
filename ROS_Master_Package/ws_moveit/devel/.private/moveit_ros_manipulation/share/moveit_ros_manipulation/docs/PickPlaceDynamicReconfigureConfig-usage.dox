@@ -1,0 +1,10 @@
+\subsubsection usage Usage
+\verbatim
+<node name="moveit_ros_manipulation" pkg="moveit_ros_manipulation" type="moveit_ros_manipulation">
+  <param name="max_attempted_states_per_pose" type="int" value="5" />
+  <param name="max_consecutive_fail_attempts" type="int" value="3" />
+  <param name="cartesian_motion_step_size" type="double" value="0.02" />
+  <param name="jump_factor" type="double" value="2.0" />
+</node>
+\endverbatim
+

@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/devel/.private/moveit_resources_fanuc_description
+
+Name: moveit_resources_fanuc_description
+Description: Description of moveit_resources_fanuc_description
+Version: 0.8.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/devel/.private/moveit_commander
+
+Name: moveit_commander
+Description: Description of moveit_commander
+Version: 1.1.9
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

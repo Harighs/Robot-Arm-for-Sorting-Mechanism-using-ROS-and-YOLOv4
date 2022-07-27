@@ -1,0 +1,10 @@
+\subsubsection usage Usage
+\verbatim
+<node name="moveit_ros_planning" pkg="moveit_ros_planning" type="moveit_ros_planning">
+  <param name="max_safe_path_cost" type="double" value="0.01" />
+  <param name="max_look_attempts" type="int" value="3" />
+  <param name="max_cost_sources" type="int" value="100" />
+  <param name="discard_overlapping_cost_sources" type="double" value="0.8" />
+</node>
+\endverbatim
+

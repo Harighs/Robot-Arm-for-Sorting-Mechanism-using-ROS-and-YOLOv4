@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target moveit_ros_benchmarks[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkExecutor.cpp.o[0m
+[ 28%] [32m[1mLinking CXX shared library /home/ros/ws_moveit/devel/.private/moveit_ros_benchmarks/lib/libmoveit_ros_benchmarks.so[0m
+[ 42%] Built target moveit_ros_benchmarks
+[35m[1mScanning dependencies of target moveit_combine_predefined_poses_benchmark[0m
+[35m[1mScanning dependencies of target moveit_run_benchmark[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/moveit_combine_predefined_poses_benchmark.dir/src/simple_benchmarks/CombinePredefinedPosesBenchmark.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/moveit_run_benchmark.dir/src/RunBenchmark.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_run_benchmark[0m
+[ 85%] Built target moveit_run_benchmark
+[100%] [32m[1mLinking CXX executable /home/ros/ws_moveit/devel/.private/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_combine_predefined_poses_benchmark[0m
+[100%] Built target moveit_combine_predefined_poses_benchmark

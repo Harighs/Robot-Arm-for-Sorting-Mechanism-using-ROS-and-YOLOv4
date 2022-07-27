@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/install
+
+Name: moveit_ros_visualization
+Description: Description of moveit_ros_visualization
+Version: 1.1.9
+Cflags: -I${prefix}/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lmoveit_motion_planning_rviz_plugin_core -lmoveit_planning_scene_rviz_plugin_core -lmoveit_robot_state_rviz_plugin_core -lmoveit_rviz_plugin_render_tools -lmoveit_trajectory_rviz_plugin_core
+Requires: moveit_ros_planning_interface moveit_ros_robot_interaction object_recognition_msgs roscpp rviz

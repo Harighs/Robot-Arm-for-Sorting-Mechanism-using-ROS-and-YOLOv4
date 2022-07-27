@@ -1,0 +1,8 @@
+prefix=/home/ros/ws_moveit/install
+
+Name: moveit_resources_prbt_ikfast_manipulator_plugin
+Description: Description of moveit_resources_prbt_ikfast_manipulator_plugin
+Version: 0.8.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
