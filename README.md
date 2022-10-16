@@ -155,12 +155,10 @@ on slave:
 	1. <rosrun beginner_tutorials watcher.py>
 	
 ## Working Pictures
-"https://www.youtube.com/embed/zcNAyf5Y-F0"
-
 The output of the image/camera feed would be like this:
 
 <img align="left" src="Assets/Picture1.png" width= 300/>
-<img align="right" src="Assets/Picture3.png" width= 350/>	
+<img align="right" src="Assets/Picture3.png" width= 300/>	
 <img align="centre" src="Assets/Picture2.png" width= 300/>
 
 
