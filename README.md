@@ -31,10 +31,16 @@ Software Tools:
   8. Procedures for robot raspbeery pi
   9. Demo
 
+# Process plan
+<img align="centre" src="Assets/process_overview.jpg.png" width= 1000/>
 
 ## 1. Introduction
 Sorting is huge task in as well as in homes and industries this project is about making an opensource diy socks sorting robot where it can predict the color of socks
 either black and white and grab it using opencv and does requried path planning using "Moveit"- a ros noetic plugin. and place it in the correct box.
+The Entire Architecture of would be explained in this image below:
+
+<img align="centre" src="Assets/architecture_plan.png" width= 1000/>
+
 
 ## 2. Requirements for Raspbeery pi (Controlling robot)
 - Bare (Flashed) Ubuntu OS on Raspberry pi 3/4 (terminal version)
@@ -92,6 +98,11 @@ sudo add-apt-repository restricted
 4. build the moveit architecutre (naming convection should be neat and constant for whole process)
 5. copy requred codes from "Robot-Arm-for-Sorting-Mechanism-using-ROS-and-YOLOv4\scripts\for_master" to catkin workspace then build it
 
+The Workflow of how moveit works from urdf is explained here:
+
+<img align="centre" src="Assets/robot_urdf_simulation_picture.png" width= 1000/>
+
+
 ## 8. Procedures for robot raspbeery pi:
 1. sanity check of all dependencies installed aready for the PCA9685 hardwares and electrical connections
 2. copy "Robot-Arm-for-Sorting-Mechanism-using-ROS-and-YOLOv4\scripts\robot_pi" to raspberry pi
@@ -142,8 +153,16 @@ on master:
 
 on slave:
 	1. <rosrun beginner_tutorials watcher.py>
-
 	
 ## Working Video
 "https://www.youtube.com/embed/zcNAyf5Y-F0"
+
+The output of the image/camera feed would be like this:
+
+<img align="left" src="Assets/Picture1.png" width= 300/>
+<img align="right" src="Assets/Picture3.png" width= 350/>	
+<img align="centre" src="Assets/Picture2.png" width= 300/>
+
+
+
 
