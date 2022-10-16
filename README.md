@@ -11,8 +11,6 @@ Software Tool:
 - ROS (Robotics Operating System) - Controlling robot arm and other apperatus
 - MoveIt tool - For path planning and Kinematical definitions & Visualisation
 
-# Overview of entire process
-<img align="right" src="Assets/robot.jpg" width= 500/>
 
 # Contents:
   <!-- 1. CAD Models of custom robot
