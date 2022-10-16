@@ -157,9 +157,9 @@ on slave:
 ## Working Pictures
 The output of the image/camera feed would be like this:
 
-<img align="left" src="Assets/Picture1.png" width= 300/>
-<img align="right" src="Assets/Picture3.png" width= 300/>	
-<img align="centre" src="Assets/Picture2.png" width= 300/>
+<img align="left" src="Assets/Picture1.png" width= 270/>
+<img align="right" src="Assets/Picture3.png" width= 270/>	
+<img align="centre" src="Assets/Picture2.png" width= 270/>
 
 
 
