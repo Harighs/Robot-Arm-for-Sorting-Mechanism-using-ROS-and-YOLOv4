@@ -1,0 +1,3 @@
+numpy == 1.23.5
+pyniryo == 1.1.2
+cmake
