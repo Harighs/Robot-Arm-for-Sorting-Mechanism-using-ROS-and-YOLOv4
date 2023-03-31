@@ -29,7 +29,9 @@ Software Tools:
   6. Procedures for building up Yolo Architecture
   7. Procedures for building up Moveit architecture
   8. Procedures for robot raspbeery pi
-  9. Demo
+  9. Running in Docker Container (For Niryo Ned Robot)
+  10. Demo
+  
 
 # Process plan
 <img align="centre" src="Assets/process_overview.jpg.png" width= 1000/>
@@ -107,7 +109,14 @@ The Workflow of how moveit works from urdf is explained here:
 1. sanity check of all dependencies installed aready for the PCA9685 hardwares and electrical connections
 2. copy "Robot-Arm-for-Sorting-Mechanism-using-ROS-and-YOLOv4\scripts\robot_pi" to raspberry pi
 
-## 9. Demo
+## 9. Running in Docker Container : (For Niryo Ned Robot)
+Here we have created the docker containers for the models scripts and the all dependencies to run this architecture in the docker container
+$ xhost local:docker
+$ docker build . -t <name_for_docker_container>
+$ docker run -it --rm --privileged --env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" --device="/dev/video0:/dev/video0" cdl:socks_storing2 python3 inference/only_camera_inference.py
+
+
+## 10. Demo
 #### Connecting two ROS systems:
 ```
 #ip of master: 192.168.0.136
@@ -157,9 +166,9 @@ on slave:
 ## Working Pictures
 The output of the image/camera feed would be like this:
 
-<img align="left" src="Assets/Picture1.png" width= 300/>
-<img align="right" src="Assets/Picture3.png" width= 300/>	
-<img align="centre" src="Assets/Picture2.png" width= 300/>
+<img align="left" src="Assets/Picture1.png" width= 270/>
+<img align="right" src="Assets/Picture3.png" width= 270/>	
+<img align="centre" src="Assets/Picture2.png" width= 270/>
 
 
 
